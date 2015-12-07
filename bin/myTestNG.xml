@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.operation.testcase.GeneralCommonLoginFlow"/>
+      <class name="com.operation.testcase.GeneralCommonRegisterFlow"/>
+      <class name="com.operation.testcase.GeneralQuickLoginFlow"/>
+      <class name="com.operation.testcase.GeneralQuickRegisterFlow"/>
+      <class name="com.operation.testcase.GeneralCSCLoginPassFlow"/>
+      <class name="com.operation.testcase.GeneralCSCLogoutPassFlow"/>
+      <class name="com.operation.testcase.GeneralCSCMenuOperateFlow"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
