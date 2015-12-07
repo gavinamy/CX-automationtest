@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common></common>
+	<CxfLogin>
+		<cxfUrl>https://cxfpay.sit.com/pay/login.htm</cxfUrl>
+		<userName>17100000053</userName>
+		<passWord>123456</passWord>
+		<checkCode>WR88</checkCode>
+		<loginInfo>退出</loginInfo>
+	</CxfLogin>	
+	<UserVehicleAuthen>	
+		<nickName>唐糖</nickName>
+		<filePath>img\\xsz.jpg</filePath>
+		<ownerName>唐车主</ownerName>
+		<carCode>沪A13590</carCode>
+		<vinCode>SNV59585858585858</vinCode>
+		<engineCode>80808080</engineCode>
+		<date>2015-01-01</date>
+		<subInfo>提交认证成功</subInfo>
+		</UserVehicleAuthen>
+</data>

@@ -1,0 +1,11 @@
+jdMainPage_url:
+  value:http://www.jd.com/
+login_link:
+  type:css
+  value:".link-login"
+手机数码京东通信:
+  type:xpath
+  value:".//*[@id='categorys-2014']/div[2]/div[1]/div[2]"
+手机品类入口:
+  type:xpath
+  value:".//*[@id='category-item-2']/div[3]/dl[1]/dd/a[1]"

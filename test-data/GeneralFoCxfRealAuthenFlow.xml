@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+	<CxfLogin>
+		<cxfUrl>https://cxfpay.sit.com/pay/login.htm</cxfUrl>
+		<userName>17100000054</userName>
+		<passWord>123456</passWord>
+		<checkCode>WR88</checkCode>
+		<loginInfo>退出</loginInfo>
+	</CxfLogin>
+	<UserRealAuthen>		
+		<realName>唐糖真实</realName>
+		<idNumber>340101199001013900</idNumber>
+		<frontPath>img\\sfzzm.jpg</frontPath>
+		<backPath>img\\sfzzfm.jpg</backPath>
+		<authenInfo>申请已提交</authenInfo>
+	</UserRealAuthen>
+</data>

@@ -1,0 +1,193 @@
+<html>
+<head>
+<title>TestNG:  MostOutstandingFundBelongConfigFlow</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MostOutstandingFundBelongConfigFlow</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 10 10:57:59 CST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>62 seconds (62754 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.emall.fund.testcases.MostOutstandingFundBelongConfig.FundBelongConfigFrontOfficeVerification()'><b>FundBelongConfigFrontOfficeVerification</b><br>Test class: com.emall.fund.testcases.MostOutstandingFundBelongConfig<br>Parameters: {url=http://test-jijin.dmzstg.pingan.com.cn/, fundTheme=近期最牛}<br/>
+<a href="#Output-12214329" onClick='toggleBox("Output-12214329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-12214329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-12214329">
+2015-07-10 10:58:46 : [INFO]Step4-前台验证近期最牛基金显示是否正确<br/>
+2015-07-10 10:58:46 : [INFO]页面跳转到：http://test-jijin.dmzstg.pingan.com.cn/<br/>
+2015-07-10 10:58:46 : [INFO]删除cookie<br/>
+2015-07-10 10:58:54 : [INFO]判断By.xpath: /html/body/div[8]/div[1]/div[1]/div[1]/h1/strong是否显示<br/>
+2015-07-10 10:58:54 : [STEP]页面-基金主题:近期最牛<br/>
+2015-07-10 10:58:54 : [INFO]判断By.xpath: /html/body/div[8]/div[1]/div[2]/div[1]/ul/li[1]/a/h2是否显示<br/>
+2015-07-10 10:58:54 : [STEP]页面-基金名称:Auto近期最牛10105829<br/>
+2015-07-10 10:58:59 : [INFO]判断By.xpath: /html/body/div[8]/div[1]/div[2]/div[1]/ul/li[1]/a/p[3]是否显示<br/>
+2015-07-10 10:58:59 : [STEP]页面-基金描述:Auto近期最牛10105829<br/>
+2015-07-10 10:58:59 : [INFO]页面显示和期望匹配:实际-近期最牛;期望-近期最牛<br/>
+2015-07-10 10:58:59 : [INFO]页面显示和期望匹配:实际-Auto近期最牛10105829;期望-Auto近期最牛10105829<br/>
+2015-07-10 10:58:59 : [INFO]页面显示和期望匹配:实际-Auto近期最牛10105829;期望-Auto近期最牛10105829<br/>
+2015-07-10 10:58:59 : [INFO]前台验证_最牛基金归属-正确<br/>
+2015-07-10 10:58:59 : [INFO]FundBelongConfigFrontOfficeVerification Success<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.emall.fund.testcases.MostOutstandingFundBelongConfig@6558bb</td></tr>
+<tr>
+<td title='com.emall.fund.testcases.MostOutstandingFundBelongConfig.GeneralAdminEmallLogin()'><b>GeneralAdminEmallLogin</b><br>Test class: com.emall.fund.testcases.MostOutstandingFundBelongConfig<br>Parameters: {username=hounaijie468, loginPage_url=http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp, password=aaaaa888}<br/>
+<a href="#Output-7719152" onClick='toggleBox("Output-7719152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-7719152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-7719152">
+2015-07-10 10:58:03 : [INFO]Step1-登录<br/>
+2015-07-10 10:58:03 : [INFO]页面跳转到：http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp<br/>
+2015-07-10 10:58:03 : [INFO]删除cookie<br/>
+2015-07-10 10:58:07 : [STEP]输入登录用户名:hounaijie468<br/>
+2015-07-10 10:58:07 : [INFO]判断By.xpath: //*[@id="j_username"]是否显示<br/>
+2015-07-10 10:58:07 : [INFO]click By.xpath: //*[@id="j_username"]<br/>
+2015-07-10 10:58:07 : [INFO]判断By.xpath: //*[@id="j_username"]是否显示<br/>
+2015-07-10 10:58:07 : [INFO]sendKeys the content 'hounaijie468' toBy.xpath: //*[@id="j_username"]<br/>
+2015-07-10 10:58:09 : [STEP]输入登录密码:aaaaa888<br/>
+2015-07-10 10:58:09 : [INFO]判断By.xpath: //*[@id="j_password"]是否显示<br/>
+2015-07-10 10:58:10 : [INFO]click By.xpath: //*[@id="j_password"]<br/>
+2015-07-10 10:58:10 : [INFO]判断By.xpath: //*[@id="j_password"]是否显示<br/>
+2015-07-10 10:58:10 : [INFO]sendKeys the content 'aaaaa888' toBy.xpath: //*[@id="j_password"]<br/>
+2015-07-10 10:58:12 : [INFO]判断By.xpath: //*[@id="login_form"]/table/tbody/tr[1]/td[3]/input是否显示<br/>
+2015-07-10 10:58:12 : [INFO]click By.xpath: //*[@id="login_form"]/table/tbody/tr[1]/td[3]/input<br/>
+2015-07-10 10:58:19 : [INFO]判断By.xpath: //*[@id="columnUp"]/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/font是否显示<br/>
+2015-07-10 10:58:19 : [INFO]GeneralAdminEmallLogin Success<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.emall.fund.testcases.MostOutstandingFundBelongConfig@6558bb</td></tr>
+<tr>
+<td title='com.emall.fund.testcases.MostOutstandingFundBelongConfig.PositiveFundBelongConfigAndVerification()'><b>PositiveFundBelongConfigAndVerification</b><br>Test class: com.emall.fund.testcases.MostOutstandingFundBelongConfig<br>Parameters: {fundTheme=近期最牛}<br/>
+<a href="#Output-17251414" onClick='toggleBox("Output-17251414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17251414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17251414">
+2015-07-10 10:58:19 : [INFO]Step2-编辑并提交近期最牛基金内容<br/>
+2015-07-10 10:58:21 : [INFO]判断By.xpath: //*[@id="opt"]/table[1]/tbody/tr/td[1]/table/tbody/tr/td[2]/a是否显示<br/>
+2015-07-10 10:58:21 : [INFO]click By.xpath: //*[@id="opt"]/table[1]/tbody/tr/td[1]/table/tbody/tr/td[2]/a<br/>
+2015-07-10 10:58:23 : [INFO]判断By.xpath: //*[@id="Menu1_23"]/nobr是否显示<br/>
+2015-07-10 10:58:23 : [INFO]click By.xpath: //*[@id="Menu1_23"]/nobr<br/>
+2015-07-10 10:58:24 : [STEP]已经进入基金归属配置页面<br/>
+2015-07-10 10:58:24 : [INFO]判断By.xpath: //*[@id="content"]是否显示<br/>
+2015-07-10 10:58:24 : [INFO]切换By.xpath: //*[@id="content"]是否被选中<br/>
+2015-07-10 10:58:24 : [INFO]判断By.xpath: //*[@id="idFundTheme"]是否显示<br/>
+2015-07-10 10:58:24 : [INFO]click By.xpath: //*[@id="idFundTheme"]<br/>
+2015-07-10 10:58:24 : [INFO]判断By.xpath: //*[@id="idFundTheme"]/option[26]是否显示<br/>
+2015-07-10 10:58:24 : [INFO]click By.xpath: //*[@id="idFundTheme"]/option[26]<br/>
+2015-07-10 10:58:24 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/input是否显示<br/>
+2015-07-10 10:58:24 : [INFO]click By.xpath: /html/body/form/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/input<br/>
+2015-07-10 10:58:27 : [STEP]已经完成基金查询<br/>
+2015-07-10 10:58:27 : [INFO]判断By.xpath: //*[@id="isShow268"]是否显示<br/>
+2015-07-10 10:58:27 : [INFO]click By.xpath: //*[@id="isShow268"]<br/>
+2015-07-10 10:58:27 : [INFO]判断By.xpath: //*[@id="isShow268"]/option[2]是否显示<br/>
+2015-07-10 10:58:27 : [INFO]click By.xpath: //*[@id="isShow268"]/option[2]<br/>
+2015-07-10 10:58:27 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[7]/input[3]是否显示<br/>
+2015-07-10 10:58:27 : [INFO]click By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[7]/input[3]<br/>
+2015-07-10 10:58:29 : [STEP]已经进入基金编辑页面<br/>
+2015-07-10 10:58:29 : [INFO]判断By.xpath: //*[@id="fundName"]是否显示<br/>
+2015-07-10 10:58:29 : [INFO]clear By.xpath: //*[@id="fundName"]<br/>
+2015-07-10 10:58:29 : [INFO]判断By.xpath: //*[@id="fundName"]是否显示<br/>
+2015-07-10 10:58:29 : [INFO]sendKeys the content 'Auto近期最牛10105829' toBy.xpath: //*[@id="fundName"]<br/>
+2015-07-10 10:58:29 : [STEP]编辑基金名称为:Auto近期最牛10105829<br/>
+2015-07-10 10:58:29 : [INFO]判断By.xpath: //*[@id="fundDescribe"]是否显示<br/>
+2015-07-10 10:58:29 : [INFO]clear By.xpath: //*[@id="fundDescribe"]<br/>
+2015-07-10 10:58:29 : [INFO]判断By.xpath: //*[@id="fundDescribe"]是否显示<br/>
+2015-07-10 10:58:29 : [INFO]sendKeys the content 'Auto近期最牛10105829' toBy.xpath: //*[@id="fundDescribe"]<br/>
+2015-07-10 10:58:30 : [STEP]编辑基金描述为:Auto近期最牛10105829<br/>
+2015-07-10 10:58:32 : [INFO]判断By.xpath: //*[@id="Idtton"]是否显示<br/>
+2015-07-10 10:58:32 : [INFO]click By.xpath: //*[@id="Idtton"]<br/>
+2015-07-10 10:58:35 : [INFO]判断By.xpath: /html/body/table/tbody/tr[2]/td/div/div/input是否显示<br/>
+2015-07-10 10:58:35 : [INFO]click By.xpath: /html/body/table/tbody/tr[2]/td/div/div/input<br/>
+2015-07-10 10:58:43 : [INFO]Step3-后台验证近期最牛基金编辑结果是否正确<br/>
+2015-07-10 10:58:46 : [INFO]判断By.xpath: //*[@id="content"]是否显示<br/>
+2015-07-10 10:58:46 : [INFO]切换By.xpath: //*[@id="content"]是否被选中<br/>
+2015-07-10 10:58:46 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[2]是否显示<br/>
+2015-07-10 10:58:46 : [STEP]页面-基金主题:近期最牛<br/>
+2015-07-10 10:58:46 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[4]是否显示<br/>
+2015-07-10 10:58:46 : [STEP]页面-基金名称:Auto近期最牛10105829<br/>
+2015-07-10 10:58:46 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[5]是否显示<br/>
+2015-07-10 10:58:46 : [STEP]页面-基金名称:Auto近期最牛10105829<br/>
+2015-07-10 10:58:46 : [INFO]页面显示和期望匹配:实际-近期最牛;期望-近期最牛<br/>
+2015-07-10 10:58:46 : [INFO]页面显示和期望匹配:实际-Auto近期最牛10105829;期望-Auto近期最牛10105829<br/>
+2015-07-10 10:58:46 : [INFO]页面显示和期望匹配:实际-Auto近期最牛10105829;期望-Auto近期最牛10105829<br/>
+2015-07-10 10:58:46 : [INFO]后台验证_最牛基金归属-正确<br/>
+2015-07-10 10:58:46 : [INFO]PositiveFundBelongConfigAndVerification Success<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.emall.fund.testcases.MostOutstandingFundBelongConfig@6558bb</td></tr>
+</table><p>
+</body>
+</html>

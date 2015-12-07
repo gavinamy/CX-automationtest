@@ -1,0 +1,20 @@
+<data>
+	<common>
+	</common>
+<SearchInsuranceAndVerify>
+    <url>http://toa-emall-dmzstg1.pingan.com/baoxian.shtml</url>
+	<productName>国内旅游-zd052101</productName>
+</SearchInsuranceAndVerify>		
+<ShowInsuranceInfoAndVerify>
+    <pageTitle>国内旅游</pageTitle>                 
+	<shortProductName>zd052101</shortProductName>
+</ShowInsuranceInfoAndVerify>
+<BuyQuicklyAndVerify>
+    <flag>点击注册表示您已阅读并同意</flag>
+</BuyQuicklyAndVerify>
+<RegisterFcmmcore>
+    <password>qweqwe123</password>
+    <validcode>8888</validcode>
+    <requestcode>888888</requestcode>
+</RegisterFcmmcore>
+</data>

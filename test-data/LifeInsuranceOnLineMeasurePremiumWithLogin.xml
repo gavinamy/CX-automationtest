@@ -1,0 +1,25 @@
+<data>
+	<common>
+	</common>
+<GeneralFcmmcoreLoginAndVerify>
+    <url>http://toa-emall-dmzstg1.pingan.com/baoxian.shtml</url>
+    <method>loginBtn</method>
+   	<user>auto16114333</user>
+	<password>qweqwe123</password>
+	<validcode>8888</validcode>
+    <flag>欢迎您</flag>
+</GeneralFcmmcoreLoginAndVerify>    
+<SearchInsuranceAndVerify>
+    <url>http://toa-emall-dmzstg1.pingan.com/baoxian.shtml</url>
+	<productName>平安康佑英才少儿重大疾病保障</productName>
+</SearchInsuranceAndVerify>		
+<ShowInsuranceInfoAndVerify>
+    <pageTitle>保险产品列表</pageTitle>   
+	<shortProductName>康佑英才</shortProductName>
+</ShowInsuranceInfoAndVerify>
+<MeasurePremiumAndVerify>
+   <url>http://e.pingan.com/</url>
+   <pageTitle>平安直通财富</pageTitle>
+   <pageFlag>康佑英才</pageFlag>   
+</MeasurePremiumAndVerify>
+</data>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralAdminEmallLogin>
+    <loginPage_url>http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp</loginPage_url>
+	<username>hounaijie468</username>
+	<password>aaaaa888</password>
+</GeneralAdminEmallLogin>		
+<PositiveThemeConfigAndVerification>
+	<fundTheme>晨星优选</fundTheme>
+</PositiveThemeConfigAndVerification>
+<PositiveFundBelongConfigAndVerification>
+	<fundTheme>晨星优选</fundTheme>
+</PositiveFundBelongConfigAndVerification> 
+<BestChoiceFundConfigFrontOfficeVerification>
+    <url>http://test-jijin.dmzstg.pingan.com.cn/</url>
+    <fundTheme>晨星优选</fundTheme>
+</BestChoiceFundConfigFrontOfficeVerification> 
+</data>

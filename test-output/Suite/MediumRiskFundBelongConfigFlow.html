@@ -1,0 +1,192 @@
+<html>
+<head>
+<title>TestNG:  MediumRiskFundBelongConfigFlow</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MediumRiskFundBelongConfigFlow</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jul 10 10:55:39 CST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70907 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.emall.fund.testcases.MediumRiskFundBelongConfig.FundBelongConfigFrontOfficeVerification()'><b>FundBelongConfigFrontOfficeVerification</b><br>Test class: com.emall.fund.testcases.MediumRiskFundBelongConfig<br>Parameters: {url=http://test-jijin.dmzstg.pingan.com.cn/, fundTheme=中等风险中等收益}<br/>
+<a href="#Output-20792572" onClick='toggleBox("Output-20792572", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-20792572" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-20792572">
+2015-07-10 10:56:29 : [INFO]Step4-前台验证中风险中收益基金显示是否正确<br/>
+2015-07-10 10:56:29 : [INFO]页面跳转到：http://test-jijin.dmzstg.pingan.com.cn/<br/>
+2015-07-10 10:56:29 : [INFO]删除cookie<br/>
+2015-07-10 10:56:39 : [INFO]判断By.xpath: /html/body/div[8]/div[2]/div[2]/div[1]/ul/li[2]/a/h2是否显示<br/>
+2015-07-10 10:56:39 : [STEP]页面-基金主题:中等风险中等收益<br/>
+2015-07-10 10:56:39 : [INFO]判断By.xpath: /html/body/div[8]/div[2]/div[2]/div[1]/ul/li[2]/a/h2是否显示<br/>
+2015-07-10 10:56:39 : [INFO]click By.xpath: /html/body/div[8]/div[2]/div[2]/div[1]/ul/li[2]/a/h2<br/>
+2015-07-10 10:56:44 : [INFO]判断By.xpath: /html/body/div[8]/div[2]/div[2]/div[2]/div[2]/ul/li[1]/div/div/div[1]/h2是否显示<br/>
+2015-07-10 10:56:44 : [STEP]页面-基金名称:Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:47 : [INFO]页面显示和期望匹配:实际-中等风险中等收益;期望-中等风险中等收益<br/>
+2015-07-10 10:56:47 : [INFO]页面显示和期望匹配:实际-Auto中等风险中等收益10105612;期望-Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:47 : [INFO]前台验证_中风险中收益基金归属-正确<br/>
+2015-07-10 10:56:47 : [INFO]FundBelongConfigFrontOfficeVerification Success<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.emall.fund.testcases.MediumRiskFundBelongConfig@e7736c</td></tr>
+<tr>
+<td title='com.emall.fund.testcases.MediumRiskFundBelongConfig.GeneralAdminEmallLogin()'><b>GeneralAdminEmallLogin</b><br>Test class: com.emall.fund.testcases.MediumRiskFundBelongConfig<br>Parameters: {username=hounaijie468, loginPage_url=http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp, password=aaaaa888}<br/>
+<a href="#Output-2894168" onClick='toggleBox("Output-2894168", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2894168" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2894168">
+2015-07-10 10:55:43 : [INFO]Step1-登录<br/>
+2015-07-10 10:55:43 : [INFO]页面跳转到：http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp<br/>
+2015-07-10 10:55:43 : [INFO]删除cookie<br/>
+2015-07-10 10:55:47 : [STEP]输入登录用户名:hounaijie468<br/>
+2015-07-10 10:55:47 : [INFO]判断By.xpath: //*[@id="j_username"]是否显示<br/>
+2015-07-10 10:55:47 : [INFO]click By.xpath: //*[@id="j_username"]<br/>
+2015-07-10 10:55:47 : [INFO]判断By.xpath: //*[@id="j_username"]是否显示<br/>
+2015-07-10 10:55:47 : [INFO]sendKeys the content 'hounaijie468' toBy.xpath: //*[@id="j_username"]<br/>
+2015-07-10 10:55:49 : [STEP]输入登录密码:aaaaa888<br/>
+2015-07-10 10:55:49 : [INFO]判断By.xpath: //*[@id="j_password"]是否显示<br/>
+2015-07-10 10:55:50 : [INFO]click By.xpath: //*[@id="j_password"]<br/>
+2015-07-10 10:55:50 : [INFO]判断By.xpath: //*[@id="j_password"]是否显示<br/>
+2015-07-10 10:55:50 : [INFO]sendKeys the content 'aaaaa888' toBy.xpath: //*[@id="j_password"]<br/>
+2015-07-10 10:55:52 : [INFO]判断By.xpath: //*[@id="login_form"]/table/tbody/tr[1]/td[3]/input是否显示<br/>
+2015-07-10 10:55:52 : [INFO]click By.xpath: //*[@id="login_form"]/table/tbody/tr[1]/td[3]/input<br/>
+2015-07-10 10:56:01 : [INFO]判断By.xpath: //*[@id="columnUp"]/tbody/tr/td/table/tbody/tr/td[3]/table/tbody/tr[2]/td/table/tbody/tr/td[1]/font是否显示<br/>
+2015-07-10 10:56:01 : [INFO]GeneralAdminEmallLogin Success<br/>
+</div>
+</td>
+<td></td>
+<td>18</td>
+<td>com.emall.fund.testcases.MediumRiskFundBelongConfig@e7736c</td></tr>
+<tr>
+<td title='com.emall.fund.testcases.MediumRiskFundBelongConfig.PositiveFundBelongConfigAndVerification()'><b>PositiveFundBelongConfigAndVerification</b><br>Test class: com.emall.fund.testcases.MediumRiskFundBelongConfig<br>Parameters: {fundTheme=中等风险中等收益}<br/>
+<a href="#Output-15879521" onClick='toggleBox("Output-15879521", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15879521" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15879521">
+2015-07-10 10:56:01 : [INFO]Step2-编辑并提交中风险中收益基金内容<br/>
+2015-07-10 10:56:03 : [INFO]判断By.xpath: //*[@id="opt"]/table[1]/tbody/tr/td[1]/table/tbody/tr/td[2]/a是否显示<br/>
+2015-07-10 10:56:03 : [INFO]click By.xpath: //*[@id="opt"]/table[1]/tbody/tr/td[1]/table/tbody/tr/td[2]/a<br/>
+2015-07-10 10:56:06 : [INFO]判断By.xpath: //*[@id="Menu1_23"]/nobr是否显示<br/>
+2015-07-10 10:56:06 : [INFO]click By.xpath: //*[@id="Menu1_23"]/nobr<br/>
+2015-07-10 10:56:06 : [STEP]已经进入基金归属配置页面<br/>
+2015-07-10 10:56:07 : [INFO]判断By.xpath: //*[@id="content"]是否显示<br/>
+2015-07-10 10:56:07 : [INFO]切换By.xpath: //*[@id="content"]是否被选中<br/>
+2015-07-10 10:56:07 : [INFO]判断By.xpath: //*[@id="idFundTheme"]是否显示<br/>
+2015-07-10 10:56:07 : [INFO]click By.xpath: //*[@id="idFundTheme"]<br/>
+2015-07-10 10:56:07 : [INFO]判断By.xpath: //*[@id="idFundTheme"]/option[28]是否显示<br/>
+2015-07-10 10:56:07 : [INFO]click By.xpath: //*[@id="idFundTheme"]/option[28]<br/>
+2015-07-10 10:56:07 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/input是否显示<br/>
+2015-07-10 10:56:07 : [INFO]click By.xpath: /html/body/form/table/tbody/tr/td/table[2]/tbody/tr/td/table/tbody/tr/td[2]/input<br/>
+2015-07-10 10:56:09 : [STEP]已经完成基金查询<br/>
+2015-07-10 10:56:09 : [INFO]判断By.xpath: //*[@id="isShow271"]是否显示<br/>
+2015-07-10 10:56:09 : [INFO]click By.xpath: //*[@id="isShow271"]<br/>
+2015-07-10 10:56:09 : [INFO]判断By.xpath: //*[@id="isShow271"]/option[2]是否显示<br/>
+2015-07-10 10:56:09 : [INFO]click By.xpath: //*[@id="isShow271"]/option[2]<br/>
+2015-07-10 10:56:09 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[7]/input[3]是否显示<br/>
+2015-07-10 10:56:09 : [INFO]click By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[7]/input[3]<br/>
+2015-07-10 10:56:12 : [STEP]已经进入基金编辑页面<br/>
+2015-07-10 10:56:12 : [INFO]判断By.xpath: //*[@id="fundName"]是否显示<br/>
+2015-07-10 10:56:12 : [INFO]clear By.xpath: //*[@id="fundName"]<br/>
+2015-07-10 10:56:12 : [INFO]判断By.xpath: //*[@id="fundName"]是否显示<br/>
+2015-07-10 10:56:12 : [INFO]sendKeys the content 'Auto中等风险中等收益10105612' toBy.xpath: //*[@id="fundName"]<br/>
+2015-07-10 10:56:12 : [STEP]编辑基金名称为:Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:12 : [INFO]判断By.xpath: //*[@id="fundDescribe"]是否显示<br/>
+2015-07-10 10:56:12 : [INFO]clear By.xpath: //*[@id="fundDescribe"]<br/>
+2015-07-10 10:56:12 : [INFO]判断By.xpath: //*[@id="fundDescribe"]是否显示<br/>
+2015-07-10 10:56:12 : [INFO]sendKeys the content 'Auto中等风险中等收益10105612' toBy.xpath: //*[@id="fundDescribe"]<br/>
+2015-07-10 10:56:12 : [STEP]编辑基金描述为:Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:14 : [INFO]判断By.xpath: //*[@id="Idtton"]是否显示<br/>
+2015-07-10 10:56:14 : [INFO]click By.xpath: //*[@id="Idtton"]<br/>
+2015-07-10 10:56:17 : [INFO]判断By.xpath: /html/body/table/tbody/tr[2]/td/div/div/input是否显示<br/>
+2015-07-10 10:56:17 : [INFO]click By.xpath: /html/body/table/tbody/tr[2]/td/div/div/input<br/>
+2015-07-10 10:56:26 : [INFO]Step3-后台验证中风险中收益基金编辑结果是否正确<br/>
+2015-07-10 10:56:29 : [INFO]判断By.xpath: //*[@id="content"]是否显示<br/>
+2015-07-10 10:56:29 : [INFO]切换By.xpath: //*[@id="content"]是否被选中<br/>
+2015-07-10 10:56:29 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[2]是否显示<br/>
+2015-07-10 10:56:29 : [STEP]页面-基金主题:中等风险中等收益<br/>
+2015-07-10 10:56:29 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[4]是否显示<br/>
+2015-07-10 10:56:29 : [STEP]页面-基金名称:Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:29 : [INFO]判断By.xpath: /html/body/form/table/tbody/tr/td/table[3]/tbody/tr[2]/td[5]是否显示<br/>
+2015-07-10 10:56:29 : [STEP]页面-基金名称:Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:29 : [INFO]页面显示和期望匹配:实际-中等风险中等收益;期望-中等风险中等收益<br/>
+2015-07-10 10:56:29 : [INFO]页面显示和期望匹配:实际-Auto中等风险中等收益10105612;期望-Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:29 : [INFO]页面显示和期望匹配:实际-Auto中等风险中等收益10105612;期望-Auto中等风险中等收益10105612<br/>
+2015-07-10 10:56:29 : [INFO]后台验证_中风险中收益基金归属-正确<br/>
+2015-07-10 10:56:29 : [INFO]PositiveFundBelongConfigAndVerification Success<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.emall.fund.testcases.MediumRiskFundBelongConfig@e7736c</td></tr>
+</table><p>
+</body>
+</html>

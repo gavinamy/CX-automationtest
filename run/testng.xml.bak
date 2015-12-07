@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" verbose="1" parallel="false" thread-count="1">
+   <test name="Test" preserve-order="true">
+      <classes>
+         <class name="com.paic.testcases.Example_Login" />
+      </classes>
+    </test>
+    
+    <listeners>
+        <listener class-name="com.pingan.android.testng.TestResultListener" />
+        <!--listener class-name="com.pingan.android.testng.RetryListener" /-->
+        <!--listener class-name="com.pingan.android.testng.PowerEmailableReporter" /-->
+    </listeners>
+</suite>

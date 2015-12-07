@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.operation.testcase.GeneralCSCMenuOperateFlow">
+        <methods>
+          <include name="OperateCSCMenu" invocation-numbers="0"/>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralCSCMenuOperateFlow -->
+      <class name="com.operation.testcase.GeneralQuickRegisterFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralQuickRegisterFlow -->
+      <class name="com.operation.testcase.GeneralCSCLoginPassFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralCSCLoginPassFlow -->
+      <class name="com.operation.testcase.GeneralCommonRegisterFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+          <include name="GeneralCommonRegister" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralCommonRegisterFlow -->
+      <class name="com.operation.testcase.GeneralQuickLoginFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralQuickLoginFlow -->
+      <class name="com.operation.testcase.GeneralCSCLogoutPassFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralCSCLogoutPassFlow -->
+      <class name="com.operation.testcase.GeneralCommonLoginFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralCommonLoginFlow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

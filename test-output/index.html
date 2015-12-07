@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>E:\Users\gavin\workspace\CX-automationtest\src\myTestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.operation.testcase.GeneralCSCLoginPassFlow" hash-for-method="GeneralAdminLogin({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})">GeneralAdminLogin({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.operation.testcase.GeneralCSCLogoutPassFlow" hash-for-method="GeneralAdminLogout({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})">GeneralAdminLogout({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.operation.testcase.GeneralCommonLoginFlow" hash-for-method="GeneralCommonLogin({password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471})">GeneralCommonLogin({password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.operation.testcase.GeneralCommonRegisterFlow" hash-for-method="GeneralCommonRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage...)">GeneralCommonRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.operation.testcase.GeneralQuickLoginFlow" hash-for-method="GeneralQuickLogin({quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm...)">GeneralQuickLogin({quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.operation.testcase.GeneralQuickRegisterFlow" hash-for-method="GeneralQuickRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员,...)">GeneralQuickRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.operation.testcase.GeneralCSCMenuOperateFlow" hash-for-method="OperateCSCMenu({password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_ur...)">OperateCSCMenu({password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_ur...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.operation.testcase.GeneralCSCMenuOperateFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="OperateCSCMenu({password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_ur...)">
+                  </a> <!-- OperateCSCMenu({password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_ur...) -->
+                  <span class="method-name">OperateCSCMenu</span>
+                  <span class="parameters">({password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.operation.testcase.GeneralQuickRegisterFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GeneralQuickRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员,...)">
+                  </a> <!-- GeneralQuickRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员,...) -->
+                  <span class="method-name">GeneralQuickRegister</span>
+                  <span class="parameters">({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc, quickUrl=http://car.sit.com/product/1010001857.htm, username=cscadmin})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.operation.testcase.GeneralCSCLoginPassFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GeneralAdminLogin({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})">
+                  </a> <!-- GeneralAdminLogin({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin}) -->
+                  <span class="method-name">GeneralAdminLogin</span>
+                  <span class="parameters">({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.operation.testcase.GeneralCommonRegisterFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GeneralCommonRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage...)">
+                  </a> <!-- GeneralCommonRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage...) -->
+                  <span class="method-name">GeneralCommonRegister</span>
+                  <span class="parameters">({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage_url=http://op.sit.com/csc, homePageURL=http://www.sit.com, username=cscadmin})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.operation.testcase.GeneralQuickLoginFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GeneralQuickLogin({quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm...)">
+                  </a> <!-- GeneralQuickLogin({quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm...) -->
+                  <span class="method-name">GeneralQuickLogin</span>
+                  <span class="parameters">({quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.operation.testcase.GeneralCSCLogoutPassFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GeneralAdminLogout({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})">
+                  </a> <!-- GeneralAdminLogout({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin}) -->
+                  <span class="method-name">GeneralAdminLogout</span>
+                  <span class="parameters">({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.operation.testcase.GeneralCommonLoginFlow</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GeneralCommonLogin({password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471})">
+                  </a> <!-- GeneralCommonLogin({password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471}) -->
+                  <span class="method-name">GeneralCommonLogin</span>
+                  <span class="parameters">({password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Users\gavin\workspace\CX-automationtest\src\myTestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.operation.testcase.GeneralCommonLoginFlow&quot;/&gt;
+      &lt;class name=&quot;com.operation.testcase.GeneralCommonRegisterFlow&quot;/&gt;
+      &lt;class name=&quot;com.operation.testcase.GeneralQuickLoginFlow&quot;/&gt;
+      &lt;class name=&quot;com.operation.testcase.GeneralQuickRegisterFlow&quot;/&gt;
+      &lt;class name=&quot;com.operation.testcase.GeneralCSCLoginPassFlow&quot;/&gt;
+      &lt;class name=&quot;com.operation.testcase.GeneralCSCLogoutPassFlow&quot;/&gt;
+      &lt;class name=&quot;com.operation.testcase.GeneralCSCMenuOperateFlow&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'GeneralCommonRegister')
+data.setCell(0, 2, 'com.operation.testcase.GeneralCommonRegisterFlow')
+data.setCell(0, 3, 74126);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GeneralQuickRegister')
+data.setCell(1, 2, 'com.operation.testcase.GeneralQuickRegisterFlow')
+data.setCell(1, 3, 65811);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'OperateCSCMenu')
+data.setCell(2, 2, 'com.operation.testcase.GeneralCSCMenuOperateFlow')
+data.setCell(2, 3, 34550);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GeneralAdminLogout')
+data.setCell(3, 2, 'com.operation.testcase.GeneralCSCLogoutPassFlow')
+data.setCell(3, 3, 24995);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GeneralAdminLogin')
+data.setCell(4, 2, 'com.operation.testcase.GeneralCSCLoginPassFlow')
+data.setCell(4, 3, 23706);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'GeneralCommonLogin')
+data.setCell(5, 2, 'com.operation.testcase.GeneralCommonLoginFlow')
+data.setCell(5, 3, 15174);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GeneralQuickLogin')
+data.setCell(6, 2, 'com.operation.testcase.GeneralQuickLoginFlow')
+data.setCell(6, 3, 8532);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GeneralQuickRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员,...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2015-12-03 17:29:18 : [INFO]页面跳转到：http://car.sit.com/product/1010001857.htm</span>
+                <span class="reporter-method-output">2015-12-03 17:29:21 : [STEP]点击立即下定按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:29:21 : [INFO]判断By.xpath: //button[@id='pc_product_order_1']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:21 : [INFO]click By.xpath: //button[@id='pc_product_order_1']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:23 : [STEP]切换iframe</span>
+                <span class="reporter-method-output">2015-12-03 17:29:23 : [STEP]点击新用户快速注册tab</span>
+                <span class="reporter-method-output">2015-12-03 17:29:23 : [INFO]判断By.xpath: //input[@id='toRegister']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:23 : [INFO]click By.xpath: //input[@id='toRegister']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [STEP]输入用户名13514929561</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='mobile']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='mobile']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='mobile']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]sendKeys the content '13514929561' toBy.xpath: //input[@id='mobile']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [STEP]输入设置密码</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='passWord']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='passWord']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='passWord']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@id='passWord']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [STEP]输入验证码1111</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='validCode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='validCode']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [STEP]点击获取验证码按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='getauthcodebun']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='getauthcodebun']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:52 : [STEP]输入登录用户名:cscadmin</span>
+                <span class="reporter-method-output">2015-12-03 17:29:52 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:52 : [INFO]click By.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:29:52 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:52 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:29:54 : [STEP]输入登录密码:123456</span>
+                <span class="reporter-method-output">2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:54 : [INFO]click By.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:54 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:54 : [INFO]click By.xpath: //*[@id="loginbtn"]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:04 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:04 : [INFO]登录完成后，页面显示信息:CSC系统管理员</span>
+                <span class="reporter-method-output">2015-12-03 17:30:07 : [INFO]点击一级菜单：短信邮件管理</span>
+                <span class="reporter-method-output">2015-12-03 17:30:07 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:07 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:08 : [INFO]点击二级子菜单：短信验证码查询</span>
+                <span class="reporter-method-output">2015-12-03 17:30:08 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:08 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:12 : [INFO]登录完成后，页面显示信息:短信验证码查询</span>
+                <span class="reporter-method-output">2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:12 : [INFO]页面项验证compareResult=:1</span>
+                <span class="reporter-method-output">2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:12 : [INFO]页面显示和期望不匹配:实际-短信验证码查询;期望-退还记录</span>
+                <span class="reporter-method-output">2015-12-03 17:30:15 : [STEP]输入需要查询的手机号：13514929561</span>
+                <span class="reporter-method-output">2015-12-03 17:30:15 : [INFO]判断By.xpath: //input[@name='mobile']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:15 : [INFO]click By.xpath: //input[@name='mobile']</span>
+                <span class="reporter-method-output">2015-12-03 17:30:15 : [INFO]判断By.xpath: //input[@name='mobile']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:15 : [INFO]sendKeys the content '13514929561' toBy.xpath: //input[@name='mobile']</span>
+                <span class="reporter-method-output">2015-12-03 17:30:15 : [STEP]点击查询按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:30:16 : [INFO]判断By.xpath: //input[@value='查询']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:16 : [INFO]click By.xpath: //input[@value='查询']</span>
+                <span class="reporter-method-output">2015-12-03 17:30:18 : [STEP]获取验证码：</span>
+                <span class="reporter-method-output">2015-12-03 17:30:18 : [INFO]判断By.xpath: //input[@name='vcode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:18 : [INFO]验证码是：420018</span>
+                <span class="reporter-method-output">2015-12-03 17:30:19 : [STEP]输入验证码：420018</span>
+                <span class="reporter-method-output">2015-12-03 17:30:19 : [INFO]判断By.xpath: //input[@id='authcode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:19 : [INFO]sendKeys the content '420018' toBy.xpath: //input[@id='authcode']</span>
+                <span class="reporter-method-output">2015-12-03 17:30:20 : [INFO]判断By.xpath: //input[@id='tijiaobtn']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:20 : [INFO]click By.xpath: //input[@id='tijiaobtn']</span>
+                <span class="reporter-method-output">2015-12-03 17:30:23 : [INFO]判断By.xpath: //li[@id='userCenter']/a/span是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:23 : [INFO]user52…</span>
+                <span class="reporter-method-output">2015-12-03 17:30:23 : [INFO]快速注册成功！</span>
+                <span class="reporter-method-output">2015-12-03 17:30:24 : [INFO]数据删除成功！</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GeneralQuickLogin({quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2015-12-03 17:29:05 : [INFO]页面跳转到：http://car.sit.com/product/1010001857.htm</span>
+                <span class="reporter-method-output">2015-12-03 17:29:09 : [STEP]点击立即下定按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:29:09 : [INFO]判断By.xpath: //button[@id='pc_product_order_1']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:09 : [INFO]click By.xpath: //button[@id='pc_product_order_1']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [STEP]输入用户名：18201866471</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='userName']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='userName']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='userName']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]sendKeys the content '18201866471' toBy.xpath: //input[@id='userName']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [STEP]输入密码：111111</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='passWord']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='passWord']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='passWord']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]sendKeys the content '111111' toBy.xpath: //input[@id='passWord']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [STEP]点击登录按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='tijiaobtn']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='tijiaobtn']</span>
+                <span class="reporter-method-output">2015-12-03 17:29:13 : [INFO]判断By.xpath: //li[@id='userCenter']/a/span是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:29:13 : [INFO]快速登录成功！</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GeneralCommonLogin({password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2015-12-03 17:27:26 : [INFO]页面跳转到：http://www.sit.com</span>
+                <span class="reporter-method-output">2015-12-03 17:27:31 : [STEP]点击弹窗关闭按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:27:31 : [INFO]判断By.xpath: //span[@class='pop-close']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:31 : [INFO]click By.xpath: //span[@class='pop-close']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:32 : [STEP]点击登录链接</span>
+                <span class="reporter-method-output">2015-12-03 17:27:32 : [INFO]判断By.xpath: //a[@class='login-bind'][contains(text(),'登录')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:32 : [INFO]click By.xpath: //a[@class='login-bind'][contains(text(),'登录')]</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [STEP]输入用户名：18201866471</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='username']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [INFO]click By.xpath: //input[@id='username']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='username']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [INFO]sendKeys the content '18201866471' toBy.xpath: //input[@id='username']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [STEP]输入密码：111111</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='passwd']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:36 : [INFO]click By.xpath: //input[@id='passwd']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='passwd']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]sendKeys the content '111111' toBy.xpath: //input[@id='passwd']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [STEP]输入验证码:1111</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='checkCode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]click By.xpath: //input[@id='checkCode']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='checkCode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='checkCode']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [STEP]点击登录按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='submit']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:37 : [INFO]click By.xpath: //input[@id='submit']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:41 : [INFO]判断By.xpath: //div[@id='js-login-box']/dl/dd是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:41 : [INFO]登录成功！</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GeneralAdminLogin({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2015-12-03 17:30:29 : [INFO]Step1-金融超市后台登录</span>
+                <span class="reporter-method-output">2015-12-03 17:30:33 : [STEP]输入登录用户名:cscadmin</span>
+                <span class="reporter-method-output">2015-12-03 17:30:33 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:33 : [INFO]click By.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:33 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:33 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:36 : [STEP]输入登录密码:123456</span>
+                <span class="reporter-method-output">2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:36 : [INFO]click By.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:36 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:36 : [INFO]click By.xpath: //*[@id="loginbtn"]</span>
+                <span class="reporter-method-output">2015-12-03 17:30:49 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:30:49 : [INFO]登录完成后，页面显示信息:CSC系统管理员</span>
+                <span class="reporter-method-output">2015-12-03 17:30:52 : [STEP]后台登录成功</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GeneralCommonRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2015-12-03 17:27:49 : [STEP]获取当前窗口句柄</span>
+                <span class="reporter-method-output">2015-12-03 17:27:49 : [INFO]当前窗口句柄为：CDwindow-2E07EC4A-E35D-4B93-B1EA-06A917CB9DAF</span>
+                <span class="reporter-method-output">2015-12-03 17:27:51 : [STEP]点击弹窗关闭按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:27:51 : [INFO]判断By.xpath: //span[@class='pop-close']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:51 : [INFO]click By.xpath: //span[@class='pop-close']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:52 : [STEP]点击注册链接</span>
+                <span class="reporter-method-output">2015-12-03 17:27:52 : [INFO]判断By.xpath: //a[@class='register-bind'][contains(text(),'注册')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:52 : [INFO]click By.xpath: //a[@class='register-bind'][contains(text(),'注册')]</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [STEP]输入车享账号：13552887044</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='userName']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='userName']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='userName']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]sendKeys the content '13552887044' toBy.xpath: //input[@name='userName']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [STEP]输入设置密码：123456</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='password']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='password']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='password']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@name='password']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [STEP]输入确认密码：123456</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='newPassword']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='newPassword']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='newPassword']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@name='newPassword']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [STEP]输入图片验证码</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@id='validCode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@id='validCode']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@id='validCode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:57 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='validCode']</span>
+                <span class="reporter-method-output">2015-12-03 17:27:58 : [STEP]点击获取验证码按钮:</span>
+                <span class="reporter-method-output">2015-12-03 17:27:58 : [INFO]判断By.xpath: //span[@value='确定']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:27:58 : [INFO]click By.xpath: //span[@value='确定']</span>
+                <span class="reporter-method-output">2015-12-03 17:28:24 : [STEP]输入登录用户名:cscadmin</span>
+                <span class="reporter-method-output">2015-12-03 17:28:24 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:24 : [INFO]click By.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:28:24 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:24 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:28:27 : [STEP]输入登录密码:123456</span>
+                <span class="reporter-method-output">2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:27 : [INFO]click By.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:27 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:27 : [INFO]click By.xpath: //*[@id="loginbtn"]</span>
+                <span class="reporter-method-output">2015-12-03 17:28:40 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:40 : [INFO]登录完成后，页面显示信息:CSC系统管理员</span>
+                <span class="reporter-method-output">2015-12-03 17:28:43 : [INFO]点击一级菜单：短信邮件管理</span>
+                <span class="reporter-method-output">2015-12-03 17:28:43 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:43 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]</span>
+                <span class="reporter-method-output">2015-12-03 17:28:44 : [INFO]点击二级子菜单：短信验证码查询</span>
+                <span class="reporter-method-output">2015-12-03 17:28:44 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:44 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]</span>
+                <span class="reporter-method-output">2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:48 : [INFO]登录完成后，页面显示信息:短信验证码查询</span>
+                <span class="reporter-method-output">2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:48 : [INFO]页面项验证compareResult=:1</span>
+                <span class="reporter-method-output">2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:48 : [INFO]页面显示和期望不匹配:实际-短信验证码查询;期望-退还记录</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [STEP]输入需要查询的手机号：13552887044</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@name='mobile']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [INFO]click By.xpath: //input[@name='mobile']</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@name='mobile']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [INFO]sendKeys the content '13552887044' toBy.xpath: //input[@name='mobile']</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [STEP]点击查询按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@value='查询']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:51 : [INFO]click By.xpath: //input[@value='查询']</span>
+                <span class="reporter-method-output">2015-12-03 17:28:54 : [STEP]获取验证码：</span>
+                <span class="reporter-method-output">2015-12-03 17:28:54 : [INFO]判断By.xpath: //input[@name='vcode']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:54 : [INFO]验证码是：911876</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [STEP]输入验证码：911876</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@id='codeId']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [INFO]click By.xpath: //input[@id='codeId']</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@id='codeId']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [INFO]sendKeys the content '911876' toBy.xpath: //input[@id='codeId']</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [STEP]点击立即注册按钮</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@value='立即注册']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:55 : [INFO]click By.xpath: //input[@value='立即注册']</span>
+                <span class="reporter-method-output">2015-12-03 17:28:59 : [STEP]获取成功注册后信息</span>
+                <span class="reporter-method-output">2015-12-03 17:28:59 : [INFO]判断By.xpath: //div[@class='register-infor']/h2是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:28:59 : [INFO]恭喜您成为车享会员</span>
+                <span class="reporter-method-output">2015-12-03 17:28:59 : [STEP]注册成功！</span>
+                <span class="reporter-method-output">2015-12-03 17:28:59 : [INFO]13552887044</span>
+                <span class="reporter-method-output">2015-12-03 17:29:00 : [INFO]数据删除成功！</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">GeneralAdminLogout({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2015-12-03 17:30:57 : [INFO]Step1-金融超市后台登录</span>
+                <span class="reporter-method-output">2015-12-03 17:31:01 : [STEP]输入登录用户名:cscadmin</span>
+                <span class="reporter-method-output">2015-12-03 17:31:01 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:01 : [INFO]click By.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:02 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:02 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:04 : [STEP]输入登录密码:123456</span>
+                <span class="reporter-method-output">2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:04 : [INFO]click By.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:04 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:04 : [INFO]click By.xpath: //*[@id="loginbtn"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:16 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:16 : [INFO]登录完成后，页面显示信息:CSC系统管理员</span>
+                <span class="reporter-method-output">2015-12-03 17:31:19 : [STEP]后台登录成功</span>
+                <span class="reporter-method-output">2015-12-03 17:31:20 : [INFO]判断By.xpath: //span[@class='username']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:20 : [INFO]鼠标移动到元素： By.xpath: //span[@class='username']</span>
+                <span class="reporter-method-output">2015-12-03 17:31:21 : [INFO]判断By.xpath: //a[@href='http://op.sit.com/csc/logout']是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:21 : [INFO]click By.xpath: //a[@href='http://op.sit.com/csc/logout']</span>
+                <span class="reporter-method-output">2015-12-03 17:31:22 : [INFO]登出成功！</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">OperateCSCMenu({password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_ur...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">2015-12-03 17:31:27 : [INFO]Step1-金融超市后台登录</span>
+                <span class="reporter-method-output">2015-12-03 17:31:31 : [STEP]输入登录用户名:cscadmin</span>
+                <span class="reporter-method-output">2015-12-03 17:31:31 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:31 : [INFO]click By.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:31 : [INFO]判断By.xpath: //*[@id="username"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:32 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:34 : [STEP]输入登录密码:123456</span>
+                <span class="reporter-method-output">2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:34 : [INFO]click By.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="password"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:34 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:34 : [INFO]click By.xpath: //*[@id="loginbtn"]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:46 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:46 : [INFO]登录完成后，页面显示信息:CSC系统管理员</span>
+                <span class="reporter-method-output">2015-12-03 17:31:49 : [STEP]后台登录成功</span>
+                <span class="reporter-method-output">2015-12-03 17:31:49 : [INFO]点击一级菜单：财务管理</span>
+                <span class="reporter-method-output">2015-12-03 17:31:49 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'财务管理')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:49 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'财务管理')]</span>
+                <span class="reporter-method-output">2015-12-03 17:31:50 : [INFO]点击二级子菜单：积分退款查询</span>
+                <span class="reporter-method-output">2015-12-03 17:31:50 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'积分退款查询')]是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:31:50 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'积分退款查询')]</span>
+                <span class="reporter-method-output">2015-12-03 17:32:00 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:32:00 : [INFO]登录完成后，页面显示信息:退还记录</span>
+                <span class="reporter-method-output">2015-12-03 17:32:00 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示</span>
+                <span class="reporter-method-output">2015-12-03 17:32:02 : [STEP]菜单进入正确！</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.operation.testcase.GeneralCommonLoginFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GeneralCommonLogin({password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471})</span>
+                <span class="method-start">4329 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">19504 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.operation.testcase.GeneralCommonRegisterFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialDriver</span>
+                <span class="method-start">21170 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GeneralCommonRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage...)</span>
+                <span class="method-start">24249 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">98376 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.operation.testcase.GeneralQuickLoginFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialDriver</span>
+                <span class="method-start">100151 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GeneralQuickLogin({quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm...)</span>
+                <span class="method-start">103406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">111939 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.operation.testcase.GeneralQuickRegisterFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialDriver</span>
+                <span class="method-start">113497 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GeneralQuickRegister({password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员,...)</span>
+                <span class="method-start">116584 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">182396 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.operation.testcase.GeneralCSCLoginPassFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialDriver</span>
+                <span class="method-start">184074 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GeneralAdminLogin({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</span>
+                <span class="method-start">187194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">210901 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.operation.testcase.GeneralCSCLogoutPassFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialDriver</span>
+                <span class="method-start">212451 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">GeneralAdminLogout({password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin})</span>
+                <span class="method-start">215563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">240559 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.operation.testcase.GeneralCSCMenuOperateFlow</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initialDriver</span>
+                <span class="method-start">242197 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">OperateCSCMenu({password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_ur...)</span>
+                <span class="method-start">245436 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closeDriver</span>
+                <span class="method-start">279987 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

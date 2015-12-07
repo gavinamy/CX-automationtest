@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralFcmmcoreLoginAndVerify>
+    <url>http://toa-emall.dmzstg.pingan.com</url>
+    <method>favoriteBtn</method>
+   	<user>hello_008</user>
+	<password>hello001</password>
+	<validcode>8888</validcode>
+    <flag>欢迎您</flag>
+</GeneralFcmmcoreLoginAndVerify>
+<FavoriteAmountVerify>
+    <favoriteAmount>4</favoriteAmount>
+    <pageTitle>我的收藏夹</pageTitle>
+</FavoriteAmountVerify>
+<AddFavoriteInProductPage>
+    <url>http://toa-emall.dmzstg.pingan.com/baoxian/travelFreedom1.shtml</url>
+    <pageTitle>分红保险3</pageTitle>
+    <favoriteInfo>收藏成功</favoriteInfo>
+</AddFavoriteInProductPage>
+<FavoriteResultVerify>
+    <url>http://toa-emall.dmzstg.pingan.com/baoxian/travelFreedom1.shtml</url>
+    <pageTitle>分红保险3</pageTitle>
+    <favoriteAmount>5</favoriteAmount>
+</FavoriteResultVerify>
+<CancelFavoriteInProductPage>
+    <favoriteInfo>取消收藏成功</favoriteInfo>
+</CancelFavoriteInProductPage>
+<FavoriteAmountVerifyAfterCancel>
+    <favoriteAmount>4</favoriteAmount>
+    <pageTitle>我的收藏夹</pageTitle>
+</FavoriteAmountVerifyAfterCancel>
+</data>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralQuickRegister>
+    <quickUrl>http://car.sit.com/product/1010001857.htm</quickUrl>
+	<quickRegPassword>123456</quickRegPassword>
+	<loginPage_url>http://op.sit.com/csc</loginPage_url>
+	<username>cscadmin</username>
+	<password>123456</password>
+	<loginInfo>CSC系统管理员</loginInfo>
+	<firstMenu>短信邮件管理</firstMenu>
+	<secondMenu>短信验证码查询</secondMenu>
+</GeneralQuickRegister>
+</data>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<OperateCSCMenu>
+    <loginPage_url>http://op.sit.com/csc/</loginPage_url>
+	<username>cscadmin</username>
+	<password>123456</password>
+	<loginInfo>CSC系统管理员</loginInfo>
+	<firstMenu>财务管理</firstMenu>
+	<secondMenu>积分退款查询</secondMenu>
+	<menuInfo>退还记录</menuInfo>
+</OperateCSCMenu>
+</data>

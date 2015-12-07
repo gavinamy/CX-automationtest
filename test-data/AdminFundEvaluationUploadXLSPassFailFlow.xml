@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralAdminEmallLogin>
+    <loginPage_url>http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp</loginPage_url>
+	<username>hounaijie468</username>
+	<password>aaaaa888</password>
+</GeneralAdminEmallLogin>
+<XLSUploadPassAndVerify>
+    <uploadType>基金评级XLS上传</uploadType>
+    <filepath>D:\金融超市自动化上传文件\晨星开放式基金业绩排行榜（大众版）(20150327).xls</filepath>
+    <flag>success</flag>
+    <uploadMsg>操作成功</uploadMsg>
+</XLSUploadPassAndVerify>
+<XLSUploadFailAndVerify>
+    <uploadType>基金评级XLS上传</uploadType>
+    <filepath>D:\金融超市自动化上传文件\错误晨星开放式基金业绩排行.xls</filepath>
+    <flag>fail</flag>
+    <uploadMsg>数据错误</uploadMsg>
+</XLSUploadFailAndVerify>
+</data>

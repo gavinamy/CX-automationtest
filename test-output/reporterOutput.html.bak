@@ -1,0 +1,464 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:math="http://exslt.org/math"
+      xmlns:testng="http://testng.org">
+   <head xmlns="">
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <h2>Reporter output</h2>
+      <div><code>
+            2015-06-16 17:46:55 : [INFO]testFailLogin Start
+            </code></div>
+      <div><code>
+            2015-06-16 17:46:55 : [INFO]页面跳转到：https://passport.jd.com/new/login.aspx?ReturnUrl=http%3A%2F%2Fwww.jd.com%2F
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [STEP]输入登录用户名:test
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [INFO]判断By.xpath: //input[@id='loginname']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [INFO]sendKeys the content 'test' toBy.xpath: //input[@id='loginname']
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [STEP]输入登录密码:123456
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [INFO]判断By.xpath: //input[@id='nloginpwd']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@id='nloginpwd']
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [INFO]判断By.xpath: //a[@id='loginsubmit']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:09 : [INFO]click By.xpath: //a[@id='loginsubmit']
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:14 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:14 : [INFO]testFailLogin Success
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:14 : [INFO]testFailLogin Start
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:14 : [INFO]页面跳转到：https://passport.jd.com/new/login.aspx?ReturnUrl=http%3A%2F%2Fwww.jd.com%2F
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:32 : [STEP]输入登录用户名:test1
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:32 : [INFO]判断By.xpath: //input[@id='loginname']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:32 : [INFO]sendKeys the content 'test1' toBy.xpath: //input[@id='loginname']
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:33 : [STEP]输入登录密码:
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:33 : [INFO]判断By.xpath: //input[@id='nloginpwd']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:33 : [INFO]sendKeys the content '' toBy.xpath: //input[@id='nloginpwd']
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:33 : [INFO]判断By.xpath: //a[@id='loginsubmit']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:33 : [INFO]click By.xpath: //a[@id='loginsubmit']
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:38 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:38 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:39 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:39 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:40 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:40 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:41 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:41 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:42 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:42 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:43 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:43 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:44 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:44 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:45 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:45 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:46 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:46 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:47 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:47 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:48 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:48 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:49 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:50 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:50 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:51 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:51 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:52 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:52 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:53 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:53 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:54 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:54 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:55 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:55 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:56 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:56 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:57 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:57 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:58 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:58 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:59 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:47:59 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:00 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:00 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:01 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:01 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:02 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:02 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:03 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:03 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:04 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:04 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:05 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:05 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:06 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:06 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:07 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:07 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:08 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:08 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:09 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:09 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:10 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:10 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:11 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:11 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:12 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:12 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:13 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:13 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:14 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:14 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:15 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:15 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:16 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:16 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:17 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:17 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:18 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:18 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:19 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:19 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:20 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:21 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:21 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:22 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:22 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:23 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:23 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:24 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:24 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:25 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:25 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:26 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:26 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:27 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:27 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:28 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:28 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:29 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:29 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:30 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:30 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:31 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:31 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:32 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:32 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:33 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:33 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:34 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:34 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:35 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:35 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:36 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:36 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:37 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:37 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:38 : [INFO]判断By.xpath: //div[@class='msg-error']是否显示
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:38 : [INFO]com.paic.base.ExtendWebElement@1c34b3c is not displayed
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:38 : [INFO]testFailLogin Failure
+            </code></div>
+      <div>
+         <img src="D:\Web\workspace\TestAutomation(0616)\TestAutomation\test-output\snapshot/1434448118558.jpg" style="width:400px;height:300px;"/>
+         
+      </div>
+      <div><code>
+            2015-06-16 17:48:41 : [INFO]PassedTests : testFailLogin
+            </code></div>
+      <div><code>
+            2015-06-16 17:48:41 : [INFO]FailedTest : testFailLogin
+            </code></div>
+      <div xmlns=""
+           style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Android AutoTest
+         
+         <a href="#" style="color: #8888aa;" target="_blank">
+            jenkins_url
+            
+         </a>
+      </div>
+   </body>
+</html>

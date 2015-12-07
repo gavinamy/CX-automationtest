@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CXFPortal Suite" verbose="1" parallel="false" thread-count="1">
+
+	<test  name="Default test"  preserve-order="true">
+		<parameter name="DBCXFMDM_Host"  value="10.32.173.250/cxfmdm" />
+		<parameter name="DBCXFMDM_User"  value="cxfmdm" />
+		<parameter name="DBCXFMDM_Pwd"  value="cxfmdm" />
+		<parameter name="DBMDMUSER_Host"  value="10.32.173.250/mdmuser" />
+		<parameter name="DBMDMUSER_User"  value="mdmuser" />
+		<parameter name="DBMDMUSER_Pwd"  value="mdmuser" />		
+		<parameter name="VehicleAuthSql"  value="update t_user set verification='1' where user_id='852016';" />
+		<parameter name="RealAuthSql"  value="delete from t_user_info where user_id='852017';" />	
+		<parameter name="ApplyCardSql"  value="delete from t_user_address where user_id='852078';" />	
+     	<classes>
+     	 	<class name="com.operation.testcase.GeneralFoCxfLoginPassFlow"  />
+     	  	<class name="com.operation.testcase.GeneralFoCxfVehicleAuthenFlow"  />
+        	<class name="com.operation.testcase.GeneralFoCxfRealAuthenFlow"  />  
+         	<class name="com.operation.testcase.GeneralFoCxfApplyCardFlow"  />         	                        
+      	</classes>
+    </test>
+</suite>

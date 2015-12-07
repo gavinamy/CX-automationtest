@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralAdminEmallLogin>
+    <loginPage_url>http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp</loginPage_url>
+	<username>hounaijie468</username>
+	<password>aaaaa888</password>
+</GeneralAdminEmallLogin>
+<UploadCSVPassAndVerify>
+    <filepath>D:\金融超市自动化上传文件\基金数据模板.csv</filepath>
+    <flag>success</flag>
+    <uploadType>基金CSV上传</uploadType>
+    <uploadMsg>操作成功</uploadMsg>
+</UploadCSVPassAndVerify>
+<UploadCSVFailAndVerify>
+    <filepath>D:\金融超市自动化上传文件\错误基金数据模板.csv</filepath>
+    <flag>fail</flag>
+    <uploadType>基金CSV上传</uploadType>
+    <uploadMsg>数据错误</uploadMsg>
+</UploadCSVFailAndVerify>
+</data>

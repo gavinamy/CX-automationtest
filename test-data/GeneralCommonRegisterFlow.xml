@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralCommonRegister>
+    <homePageURL>http://www.sit.com</homePageURL>
+	<setPwd>123456</setPwd>
+	<loginPage_url>http://op.sit.com/csc</loginPage_url>
+	<username>cscadmin</username>
+	<password>123456</password>
+	<loginInfo>CSC系统管理员</loginInfo>
+	<firstMenu>短信邮件管理</firstMenu>
+	<secondMenu>短信验证码查询</secondMenu>
+</GeneralCommonRegister>
+</data>

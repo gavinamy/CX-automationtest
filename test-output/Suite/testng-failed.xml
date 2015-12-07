@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Suite]">
+  <test name="HighRiskFundBelongConfigFlow(failed)">
+    <classes>
+      <class name="com.operation.testcase.GeneralQuickRegisterFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralQuickRegisterFlow -->
+      <class name="com.operation.testcase.GeneralCommonRegisterFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+          <include name="GeneralCommonRegister" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralCommonRegisterFlow -->
+      <class name="com.operation.testcase.GeneralQuickLoginFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralQuickLoginFlow -->
+      <class name="com.operation.testcase.GeneralCommonLoginFlow">
+        <methods>
+          <include name="initialDriver"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.operation.testcase.GeneralCommonLoginFlow -->
+    </classes>
+  </test> <!-- HighRiskFundBelongConfigFlow(failed) -->
+</suite> <!-- Failed suite [Suite] -->

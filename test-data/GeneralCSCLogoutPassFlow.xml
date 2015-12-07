@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralAdminLogout>
+    <loginPage_url>http://op.sit.com/csc/</loginPage_url>
+	<username>cscadmin</username>
+	<password>123456</password>
+	<loginInfo>CSC系统管理员</loginInfo>
+</GeneralAdminLogout>
+</data>

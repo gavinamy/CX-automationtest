@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralAdminEmallLogin>
+    <loginPage_url>http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp</loginPage_url>
+	<username>hounaijie468</username>
+	<password>aaaaa888</password>
+</GeneralAdminEmallLogin>
+<AdminSearchProduct>
+    <productType>保险</productType>
+    <scope>产险直通产品</scope>
+    <beginTime>今天</beginTime>
+    <endTime>今天</endTime>
+</AdminSearchProduct>
+<AdminVerifyPolicy>
+     <product>国内旅游-zd052101</product>
+     <orderStatus>已支付已出单</orderStatus>
+</AdminVerifyPolicy>
+</data>
+<!--GeneralAdminEmallLogin>
+    <loginPage_url>http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp</loginPage_url>
+	<username>hounaijie468</username>
+	<password>aaaaa888</password>
+</GeneralAdminEmallLogin>
+<AdminSearchProduct>
+    <productType>保险</productType>
+    <scope>养老险直通产品</scope>
+    <beginTime>今天</beginTime>
+    <endTime>今天</endTime>
+</AdminSearchProduct>
+<AdminVerifyPolicy>
+     <product>少儿重大疾病保险</product>
+</AdminVerifyPolicy>
+</data-->

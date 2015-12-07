@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<SearchInsuranceAndVerify>
+    <url>http://toa-emall-dmzstg1.pingan.com/baoxian.shtml</url>
+	<productName>国内旅游-zd052101</productName>
+</SearchInsuranceAndVerify>		
+<ShowInsuranceInfoAndVerify>
+    <pageTitle>国内旅游</pageTitle>   
+	<shortProductName>zd052101</shortProductName>
+</ShowInsuranceInfoAndVerify>
+<BuyQuicklyAndVerify>
+    <flag>点击注册表示您已阅读并同意</flag>
+</BuyQuicklyAndVerify>
+<AvoidLogintoBuyAndVerify>
+     <pageTitle>报价</pageTitle>
+</AvoidLogintoBuyAndVerify>
+<CoverQuicklyAndVerify>
+     <pageTitle>填写保险信息</pageTitle>
+     <flag>国内旅游-zd052101</flag>
+</CoverQuicklyAndVerify>
+<InputInsuranceInfo>
+	<email>autotest@163.com</email>
+	<city>上海市</city>
+	<IdType>身份证</IdType>
+	<IDNo>230104198010309774</IDNo>
+</InputInsuranceInfo> 
+<VerifyInsuranceInfo>
+    <sex>男</sex>
+    <IdType>身份证</IdType>
+    <email>autotest@163.com</email>
+    <IDNo>230104198010309774</IDNo>
+    <insurantSex>男</insurantSex>
+    <insurantIDType>身份证</insurantIDType>
+    <insurantIdNo>230104198010309774</insurantIdNo>
+    <insurantbirth>1980-10-30</insurantbirth>
+</VerifyInsuranceInfo>
+<SubmintInsurance>
+    <flag>请选择付款方式</flag> 
+      <flag1>1</flag1> 
+</SubmintInsurance>
+<SelectPaymentPattern>
+    <payment>交通银行</payment>
+</SelectPaymentPattern>
+<SubmitPaymentInfoAndVerify>
+    <cardNo>4380880000000007</cardNo>
+    <monthValid>3月</monthValid>
+    <yearValid>2020</yearValid>
+    <verifyCode>8888</verifyCode>
+         <flag>1</flag> 
+</SubmitPaymentInfoAndVerify>
+<GeneralAdminEmallLogin>
+    <loginPage_url>http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp</loginPage_url>
+	<username>hounaijie468</username>
+	<password>aaaaa888</password>
+</GeneralAdminEmallLogin>
+<AdminSearchProduct>
+    <productType>保险</productType>
+    <scope>产险直通产品</scope>
+    <beginTime>今天</beginTime>
+    <endTime>今天</endTime>
+</AdminSearchProduct>
+<AdminVerifyPolicy>
+     <product>国内旅游-zd052101</product>
+</AdminVerifyPolicy>
+</data>

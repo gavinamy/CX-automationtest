@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralFcmmcoreLoginAndVerify>
+    <url>http://toa-emall.dmzstg.pingan.com/baoxian.shtml</url>
+    <method>orderBtn</method>
+   	<user>auto16114333</user>
+	<password>qweqwe123</password>
+	<validcode>8888</validcode>
+    <flag>欢迎您</flag>
+</GeneralFcmmcoreLoginAndVerify>
+<VerifyOrderTotalAmount>
+    <amount>1</amount>
+</VerifyOrderTotalAmount>		
+<VerifyOrderStatus>
+	<product>zd052101</product>
+	<orderStatus>待处理</orderStatus>	
+</VerifyOrderStatus>
+<QuotePageAndVerify>
+         <pageTitle>报价</pageTitle>
+</QuotePageAndVerify>
+</data>   

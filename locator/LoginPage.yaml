@@ -1,0 +1,15 @@
+loginPage_url:
+  type:string
+  value:https://passport.jd.com/new/login.aspx?ReturnUrl=http%3A%2F%2Fwww.jd.com%2F
+login_name:
+  type:xpath
+  value:"//input[@id='loginname']"
+login_pwd:
+  type:xpaht
+  value:"//input[@id='nloginpwd']"
+login_button:
+  type:xpaht
+  value:"//a[@id='loginsubmit']"
+loginpwd_error:
+  type:xpath
+  value:".msg-error"

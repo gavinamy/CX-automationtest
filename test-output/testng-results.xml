@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[2015-12-03 17:27:26 : [INFO]页面跳转到：http://www.sit.com]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:31 : [STEP]点击弹窗关闭按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:31 : [INFO]判断By.xpath: //span[@class='pop-close']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:31 : [INFO]click By.xpath: //span[@class='pop-close']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:32 : [STEP]点击登录链接]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:32 : [INFO]判断By.xpath: //a[@class='login-bind'][contains(text(),'登录')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:32 : [INFO]click By.xpath: //a[@class='login-bind'][contains(text(),'登录')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [STEP]输入用户名：18201866471]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='username']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [INFO]click By.xpath: //input[@id='username']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='username']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [INFO]sendKeys the content '18201866471' toBy.xpath: //input[@id='username']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [STEP]输入密码：111111]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='passwd']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:36 : [INFO]click By.xpath: //input[@id='passwd']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='passwd']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]sendKeys the content '111111' toBy.xpath: //input[@id='passwd']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [STEP]输入验证码:1111]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='checkCode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]click By.xpath: //input[@id='checkCode']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='checkCode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='checkCode']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [STEP]点击登录按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='submit']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:37 : [INFO]click By.xpath: //input[@id='submit']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:41 : [INFO]判断By.xpath: //div[@id='js-login-box']/dl/dd是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:41 : [INFO]登录成功！]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:49 : [STEP]获取当前窗口句柄]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:49 : [INFO]当前窗口句柄为：CDwindow-2E07EC4A-E35D-4B93-B1EA-06A917CB9DAF]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:51 : [STEP]点击弹窗关闭按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:51 : [INFO]判断By.xpath: //span[@class='pop-close']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:51 : [INFO]click By.xpath: //span[@class='pop-close']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:52 : [STEP]点击注册链接]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:52 : [INFO]判断By.xpath: //a[@class='register-bind'][contains(text(),'注册')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:52 : [INFO]click By.xpath: //a[@class='register-bind'][contains(text(),'注册')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [STEP]输入车享账号：13552887044]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='userName']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='userName']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='userName']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '13552887044' toBy.xpath: //input[@name='userName']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [STEP]输入设置密码：123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='password']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='password']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='password']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@name='password']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [STEP]输入确认密码：123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='newPassword']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='newPassword']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='newPassword']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@name='newPassword']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [STEP]输入图片验证码]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@id='validCode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@id='validCode']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@id='validCode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='validCode']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:58 : [STEP]点击获取验证码按钮:]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:58 : [INFO]判断By.xpath: //span[@value='确定']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:27:58 : [INFO]click By.xpath: //span[@value='确定']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:24 : [STEP]输入登录用户名:cscadmin]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:24 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:24 : [INFO]click By.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:24 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:24 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:27 : [STEP]输入登录密码:123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:27 : [INFO]click By.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:27 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:27 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:40 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:40 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:43 : [INFO]点击一级菜单：短信邮件管理]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:43 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:43 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:44 : [INFO]点击二级子菜单：短信验证码查询]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:44 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:44 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:48 : [INFO]登录完成后，页面显示信息:短信验证码查询]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:48 : [INFO]页面项验证compareResult=:1]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:48 : [INFO]页面显示和期望不匹配:实际-短信验证码查询;期望-退还记录]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [STEP]输入需要查询的手机号：13552887044]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [INFO]click By.xpath: //input[@name='mobile']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [INFO]sendKeys the content '13552887044' toBy.xpath: //input[@name='mobile']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [STEP]点击查询按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@value='查询']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:51 : [INFO]click By.xpath: //input[@value='查询']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:54 : [STEP]获取验证码：]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:54 : [INFO]判断By.xpath: //input[@name='vcode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:54 : [INFO]验证码是：911876]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [STEP]输入验证码：911876]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@id='codeId']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [INFO]click By.xpath: //input[@id='codeId']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@id='codeId']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [INFO]sendKeys the content '911876' toBy.xpath: //input[@id='codeId']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [STEP]点击立即注册按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@value='立即注册']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:55 : [INFO]click By.xpath: //input[@value='立即注册']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:59 : [STEP]获取成功注册后信息]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:59 : [INFO]判断By.xpath: //div[@class='register-infor']/h2是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:59 : [INFO]恭喜您成为车享会员]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:59 : [STEP]注册成功！]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:28:59 : [INFO]13552887044]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:00 : [INFO]数据删除成功！]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:05 : [INFO]页面跳转到：http://car.sit.com/product/1010001857.htm]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:09 : [STEP]点击立即下定按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:09 : [INFO]判断By.xpath: //button[@id='pc_product_order_1']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:09 : [INFO]click By.xpath: //button[@id='pc_product_order_1']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [STEP]输入用户名：18201866471]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='userName']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='userName']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='userName']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]sendKeys the content '18201866471' toBy.xpath: //input[@id='userName']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [STEP]输入密码：111111]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='passWord']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]sendKeys the content '111111' toBy.xpath: //input[@id='passWord']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [STEP]点击登录按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='tijiaobtn']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='tijiaobtn']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:13 : [INFO]判断By.xpath: //li[@id='userCenter']/a/span是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:13 : [INFO]快速登录成功！]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:18 : [INFO]页面跳转到：http://car.sit.com/product/1010001857.htm]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:21 : [STEP]点击立即下定按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:21 : [INFO]判断By.xpath: //button[@id='pc_product_order_1']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:21 : [INFO]click By.xpath: //button[@id='pc_product_order_1']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:23 : [STEP]切换iframe]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:23 : [STEP]点击新用户快速注册tab]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:23 : [INFO]判断By.xpath: //input[@id='toRegister']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:23 : [INFO]click By.xpath: //input[@id='toRegister']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [STEP]输入用户名13514929561]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='mobile']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='mobile']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='mobile']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]sendKeys the content '13514929561' toBy.xpath: //input[@id='mobile']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [STEP]输入设置密码]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='passWord']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@id='passWord']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [STEP]输入验证码1111]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='validCode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='validCode']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [STEP]点击获取验证码按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='getauthcodebun']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='getauthcodebun']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:52 : [STEP]输入登录用户名:cscadmin]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:52 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:52 : [INFO]click By.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:52 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:52 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:54 : [STEP]输入登录密码:123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:54 : [INFO]click By.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:54 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:29:54 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:04 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:04 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:07 : [INFO]点击一级菜单：短信邮件管理]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:07 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:07 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:08 : [INFO]点击二级子菜单：短信验证码查询]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:08 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:08 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:12 : [INFO]登录完成后，页面显示信息:短信验证码查询]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:12 : [INFO]页面项验证compareResult=:1]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:12 : [INFO]页面显示和期望不匹配:实际-短信验证码查询;期望-退还记录]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:15 : [STEP]输入需要查询的手机号：13514929561]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:15 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:15 : [INFO]click By.xpath: //input[@name='mobile']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:15 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:15 : [INFO]sendKeys the content '13514929561' toBy.xpath: //input[@name='mobile']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:15 : [STEP]点击查询按钮]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:16 : [INFO]判断By.xpath: //input[@value='查询']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:16 : [INFO]click By.xpath: //input[@value='查询']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:18 : [STEP]获取验证码：]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:18 : [INFO]判断By.xpath: //input[@name='vcode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:18 : [INFO]验证码是：420018]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:19 : [STEP]输入验证码：420018]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:19 : [INFO]判断By.xpath: //input[@id='authcode']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:19 : [INFO]sendKeys the content '420018' toBy.xpath: //input[@id='authcode']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:20 : [INFO]判断By.xpath: //input[@id='tijiaobtn']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:20 : [INFO]click By.xpath: //input[@id='tijiaobtn']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:23 : [INFO]判断By.xpath: //li[@id='userCenter']/a/span是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:23 : [INFO]user52…]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:23 : [INFO]快速注册成功！]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:24 : [INFO]数据删除成功！]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:29 : [INFO]Step1-金融超市后台登录]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:33 : [STEP]输入登录用户名:cscadmin]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:33 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:33 : [INFO]click By.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:33 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:33 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:36 : [STEP]输入登录密码:123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:36 : [INFO]click By.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:36 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:36 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:49 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:49 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:52 : [STEP]后台登录成功]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:30:57 : [INFO]Step1-金融超市后台登录]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:01 : [STEP]输入登录用户名:cscadmin]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:01 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:01 : [INFO]click By.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:02 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:02 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:04 : [STEP]输入登录密码:123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:04 : [INFO]click By.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:04 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:04 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:16 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:16 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:19 : [STEP]后台登录成功]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:20 : [INFO]判断By.xpath: //span[@class='username']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:20 : [INFO]鼠标移动到元素： By.xpath: //span[@class='username']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:21 : [INFO]判断By.xpath: //a[@href='http://op.sit.com/csc/logout']是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:21 : [INFO]click By.xpath: //a[@href='http://op.sit.com/csc/logout']]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:22 : [INFO]登出成功！]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:27 : [INFO]Step1-金融超市后台登录]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:31 : [STEP]输入登录用户名:cscadmin]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:31 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:31 : [INFO]click By.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:31 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:32 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:34 : [STEP]输入登录密码:123456]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:34 : [INFO]click By.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:34 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:34 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:46 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:46 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:49 : [STEP]后台登录成功]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:49 : [INFO]点击一级菜单：财务管理]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:49 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'财务管理')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:49 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'财务管理')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:50 : [INFO]点击二级子菜单：积分退款查询]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:50 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'积分退款查询')]是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:31:50 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'积分退款查询')]]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:32:00 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:32:00 : [INFO]登录完成后，页面显示信息:退还记录]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:32:00 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+    </line>
+    <line>
+      <![CDATA[2015-12-03 17:32:02 : [STEP]菜单进入正确！]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="283545" started-at="2015-12-03T09:27:22Z" finished-at="2015-12-03T09:32:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="283545" started-at="2015-12-03T09:27:22Z" finished-at="2015-12-03T09:32:05Z">
+      <class name="com.operation.testcase.GeneralCSCLogoutPassFlow">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.operation.testcase.GeneralCSCLogoutPassFlow@fb4a64]" name="initialDriver" is-config="true" duration-ms="3109" started-at="2015-12-03T17:30:54Z" finished-at="2015-12-03T17:30:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="GeneralAdminLogout(java.util.Map)[pri:0, instance:com.operation.testcase.GeneralCSCLogoutPassFlow@fb4a64]" name="GeneralAdminLogout" duration-ms="24995" started-at="2015-12-03T17:30:57Z" data-provider="providerMethod" finished-at="2015-12-03T17:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-12-03 17:30:57 : [INFO]Step1-金融超市后台登录]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:01 : [STEP]输入登录用户名:cscadmin]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:01 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:01 : [INFO]click By.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:02 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:02 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:04 : [STEP]输入登录密码:123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:04 : [INFO]click By.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:04 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:04 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:04 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:16 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:16 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:19 : [STEP]后台登录成功]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:20 : [INFO]判断By.xpath: //span[@class='username']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:20 : [INFO]鼠标移动到元素： By.xpath: //span[@class='username']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:21 : [INFO]判断By.xpath: //a[@href='http://op.sit.com/csc/logout']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:21 : [INFO]click By.xpath: //a[@href='http://op.sit.com/csc/logout']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:22 : [INFO]登出成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GeneralAdminLogout -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.operation.testcase.GeneralCSCLogoutPassFlow@fb4a64]" name="closeDriver" is-config="true" duration-ms="1638" started-at="2015-12-03T17:31:22Z" finished-at="2015-12-03T17:31:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.operation.testcase.GeneralCSCLogoutPassFlow -->
+      <class name="com.operation.testcase.GeneralCommonRegisterFlow">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.operation.testcase.GeneralCommonRegisterFlow@1a92922]" name="initialDriver" is-config="true" duration-ms="3075" started-at="2015-12-03T17:27:43Z" finished-at="2015-12-03T17:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="GeneralCommonRegister(java.util.HashMap)[pri:0, instance:com.operation.testcase.GeneralCommonRegisterFlow@1a92922]" name="GeneralCommonRegister" duration-ms="74126" started-at="2015-12-03T17:27:46Z" data-provider="providerMethod" finished-at="2015-12-03T17:29:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, loginInfo=CSC系统管理员, setPwd=123456, loginPage_url=http://op.sit.com/csc, homePageURL=http://www.sit.com, username=cscadmin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-12-03 17:27:49 : [STEP]获取当前窗口句柄]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:49 : [INFO]当前窗口句柄为：CDwindow-2E07EC4A-E35D-4B93-B1EA-06A917CB9DAF]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:51 : [STEP]点击弹窗关闭按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:51 : [INFO]判断By.xpath: //span[@class='pop-close']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:51 : [INFO]click By.xpath: //span[@class='pop-close']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:52 : [STEP]点击注册链接]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:52 : [INFO]判断By.xpath: //a[@class='register-bind'][contains(text(),'注册')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:52 : [INFO]click By.xpath: //a[@class='register-bind'][contains(text(),'注册')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [STEP]输入车享账号：13552887044]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='userName']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='userName']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='userName']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '13552887044' toBy.xpath: //input[@name='userName']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [STEP]输入设置密码：123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='password']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='password']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='password']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@name='password']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [STEP]输入确认密码：123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='newPassword']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@name='newPassword']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@name='newPassword']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@name='newPassword']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [STEP]输入图片验证码]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@id='validCode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]click By.xpath: //input[@id='validCode']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]判断By.xpath: //input[@id='validCode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:57 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='validCode']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:58 : [STEP]点击获取验证码按钮:]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:58 : [INFO]判断By.xpath: //span[@value='确定']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:58 : [INFO]click By.xpath: //span[@value='确定']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:24 : [STEP]输入登录用户名:cscadmin]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:24 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:24 : [INFO]click By.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:24 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:24 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:27 : [STEP]输入登录密码:123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:27 : [INFO]click By.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:27 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:27 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:27 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:40 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:40 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:43 : [INFO]点击一级菜单：短信邮件管理]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:43 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:43 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:44 : [INFO]点击二级子菜单：短信验证码查询]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:44 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:44 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:48 : [INFO]登录完成后，页面显示信息:短信验证码查询]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:48 : [INFO]页面项验证compareResult=:1]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:48 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:48 : [INFO]页面显示和期望不匹配:实际-短信验证码查询;期望-退还记录]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [STEP]输入需要查询的手机号：13552887044]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [INFO]click By.xpath: //input[@name='mobile']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [INFO]sendKeys the content '13552887044' toBy.xpath: //input[@name='mobile']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [STEP]点击查询按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [INFO]判断By.xpath: //input[@value='查询']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:51 : [INFO]click By.xpath: //input[@value='查询']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:54 : [STEP]获取验证码：]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:54 : [INFO]判断By.xpath: //input[@name='vcode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:54 : [INFO]验证码是：911876]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [STEP]输入验证码：911876]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@id='codeId']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [INFO]click By.xpath: //input[@id='codeId']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@id='codeId']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [INFO]sendKeys the content '911876' toBy.xpath: //input[@id='codeId']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [STEP]点击立即注册按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [INFO]判断By.xpath: //input[@value='立即注册']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:55 : [INFO]click By.xpath: //input[@value='立即注册']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:59 : [STEP]获取成功注册后信息]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:59 : [INFO]判断By.xpath: //div[@class='register-infor']/h2是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:59 : [INFO]恭喜您成为车享会员]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:59 : [STEP]注册成功！]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:28:59 : [INFO]13552887044]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:00 : [INFO]数据删除成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GeneralCommonRegister -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.operation.testcase.GeneralCommonRegisterFlow@1a92922]" name="closeDriver" is-config="true" duration-ms="1774" started-at="2015-12-03T17:29:00Z" finished-at="2015-12-03T17:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.operation.testcase.GeneralCommonRegisterFlow -->
+      <class name="com.operation.testcase.GeneralCSCLoginPassFlow">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.operation.testcase.GeneralCSCLoginPassFlow@1618e91]" name="initialDriver" is-config="true" duration-ms="3117" started-at="2015-12-03T17:30:26Z" finished-at="2015-12-03T17:30:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="GeneralAdminLogin(java.util.Map)[pri:0, instance:com.operation.testcase.GeneralCSCLoginPassFlow@1618e91]" name="GeneralAdminLogin" duration-ms="23706" started-at="2015-12-03T17:30:29Z" data-provider="providerMethod" finished-at="2015-12-03T17:30:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-12-03 17:30:29 : [INFO]Step1-金融超市后台登录]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:33 : [STEP]输入登录用户名:cscadmin]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:33 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:33 : [INFO]click By.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:33 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:33 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:36 : [STEP]输入登录密码:123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:36 : [INFO]click By.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:36 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:36 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:36 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:49 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:49 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:52 : [STEP]后台登录成功]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GeneralAdminLogin -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.operation.testcase.GeneralCSCLoginPassFlow@1618e91]" name="closeDriver" is-config="true" duration-ms="1550" started-at="2015-12-03T17:30:52Z" finished-at="2015-12-03T17:30:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.operation.testcase.GeneralCSCLoginPassFlow -->
+      <class name="com.operation.testcase.GeneralCommonLoginFlow">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.operation.testcase.GeneralCommonLoginFlow@1474c6c]" name="initialDriver" is-config="true" duration-ms="4319" started-at="2015-12-03T17:27:22Z" finished-at="2015-12-03T17:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="GeneralCommonLogin(java.util.HashMap)[pri:0, instance:com.operation.testcase.GeneralCommonLoginFlow@1474c6c]" name="GeneralCommonLogin" duration-ms="15174" started-at="2015-12-03T17:27:26Z" data-provider="providerMethod" finished-at="2015-12-03T17:27:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=111111, loginInfo=Hi, homePageURL=http://www.sit.com, username=18201866471}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-12-03 17:27:26 : [INFO]页面跳转到：http://www.sit.com]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:31 : [STEP]点击弹窗关闭按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:31 : [INFO]判断By.xpath: //span[@class='pop-close']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:31 : [INFO]click By.xpath: //span[@class='pop-close']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:32 : [STEP]点击登录链接]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:32 : [INFO]判断By.xpath: //a[@class='login-bind'][contains(text(),'登录')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:32 : [INFO]click By.xpath: //a[@class='login-bind'][contains(text(),'登录')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [STEP]输入用户名：18201866471]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='username']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [INFO]click By.xpath: //input[@id='username']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='username']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [INFO]sendKeys the content '18201866471' toBy.xpath: //input[@id='username']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [STEP]输入密码：111111]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [INFO]判断By.xpath: //input[@id='passwd']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:36 : [INFO]click By.xpath: //input[@id='passwd']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='passwd']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]sendKeys the content '111111' toBy.xpath: //input[@id='passwd']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [STEP]输入验证码:1111]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='checkCode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]click By.xpath: //input[@id='checkCode']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='checkCode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='checkCode']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [STEP]点击登录按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]判断By.xpath: //input[@id='submit']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:37 : [INFO]click By.xpath: //input[@id='submit']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:41 : [INFO]判断By.xpath: //div[@id='js-login-box']/dl/dd是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:27:41 : [INFO]登录成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GeneralCommonLogin -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.operation.testcase.GeneralCommonLoginFlow@1474c6c]" name="closeDriver" is-config="true" duration-ms="1665" started-at="2015-12-03T17:27:41Z" finished-at="2015-12-03T17:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.operation.testcase.GeneralCommonLoginFlow -->
+      <class name="com.operation.testcase.GeneralCSCMenuOperateFlow">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.operation.testcase.GeneralCSCMenuOperateFlow@1e7a66b]" name="initialDriver" is-config="true" duration-ms="3234" started-at="2015-12-03T17:31:24Z" finished-at="2015-12-03T17:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="OperateCSCMenu(java.util.Map)[pri:0, instance:com.operation.testcase.GeneralCSCMenuOperateFlow@1e7a66b]" name="OperateCSCMenu" duration-ms="34550" started-at="2015-12-03T17:31:27Z" data-provider="providerMethod" finished-at="2015-12-03T17:32:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, secondMenu=积分退款查询, menuInfo=退还记录, firstMenu=财务管理, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc/, username=cscadmin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-12-03 17:31:27 : [INFO]Step1-金融超市后台登录]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:31 : [STEP]输入登录用户名:cscadmin]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:31 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:31 : [INFO]click By.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:31 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:32 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:34 : [STEP]输入登录密码:123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:34 : [INFO]click By.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:34 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:34 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:34 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:46 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:46 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:49 : [STEP]后台登录成功]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:49 : [INFO]点击一级菜单：财务管理]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:49 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'财务管理')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:49 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'财务管理')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:50 : [INFO]点击二级子菜单：积分退款查询]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:50 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'积分退款查询')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:31:50 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'积分退款查询')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:32:00 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:32:00 : [INFO]登录完成后，页面显示信息:退还记录]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:32:00 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:32:02 : [STEP]菜单进入正确！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OperateCSCMenu -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.operation.testcase.GeneralCSCMenuOperateFlow@1e7a66b]" name="closeDriver" is-config="true" duration-ms="3549" started-at="2015-12-03T17:32:02Z" finished-at="2015-12-03T17:32:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.operation.testcase.GeneralCSCMenuOperateFlow -->
+      <class name="com.operation.testcase.GeneralQuickLoginFlow">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.operation.testcase.GeneralQuickLoginFlow@1f2a7d5]" name="initialDriver" is-config="true" duration-ms="3251" started-at="2015-12-03T17:29:02Z" finished-at="2015-12-03T17:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="GeneralQuickLogin(java.util.HashMap)[pri:0, instance:com.operation.testcase.GeneralQuickLoginFlow@1f2a7d5]" name="GeneralQuickLogin" duration-ms="8532" started-at="2015-12-03T17:29:05Z" data-provider="providerMethod" finished-at="2015-12-03T17:29:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{quickPassword=111111, quickUsername=18201866471, quickUrl=http://car.sit.com/product/1010001857.htm}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-12-03 17:29:05 : [INFO]页面跳转到：http://car.sit.com/product/1010001857.htm]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:09 : [STEP]点击立即下定按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:09 : [INFO]判断By.xpath: //button[@id='pc_product_order_1']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:09 : [INFO]click By.xpath: //button[@id='pc_product_order_1']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [STEP]输入用户名：18201866471]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='userName']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='userName']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='userName']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]sendKeys the content '18201866471' toBy.xpath: //input[@id='userName']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [STEP]输入密码：111111]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='passWord']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]sendKeys the content '111111' toBy.xpath: //input[@id='passWord']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [STEP]点击登录按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]判断By.xpath: //input[@id='tijiaobtn']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:11 : [INFO]click By.xpath: //input[@id='tijiaobtn']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:13 : [INFO]判断By.xpath: //li[@id='userCenter']/a/span是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:13 : [INFO]快速登录成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GeneralQuickLogin -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.operation.testcase.GeneralQuickLoginFlow@1f2a7d5]" name="closeDriver" is-config="true" duration-ms="1558" started-at="2015-12-03T17:29:13Z" finished-at="2015-12-03T17:29:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.operation.testcase.GeneralQuickLoginFlow -->
+      <class name="com.operation.testcase.GeneralQuickRegisterFlow">
+        <test-method status="PASS" signature="initialDriver()[pri:0, instance:com.operation.testcase.GeneralQuickRegisterFlow@6de728]" name="initialDriver" is-config="true" duration-ms="3084" started-at="2015-12-03T17:29:15Z" finished-at="2015-12-03T17:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDriver -->
+        <test-method status="PASS" signature="GeneralQuickRegister(java.util.HashMap)[pri:0, instance:com.operation.testcase.GeneralQuickRegisterFlow@6de728]" name="GeneralQuickRegister" duration-ms="65811" started-at="2015-12-03T17:29:18Z" data-provider="providerMethod" finished-at="2015-12-03T17:30:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=123456, secondMenu=短信验证码查询, firstMenu=短信邮件管理, quickRegPassword=123456, loginInfo=CSC系统管理员, loginPage_url=http://op.sit.com/csc, quickUrl=http://car.sit.com/product/1010001857.htm, username=cscadmin}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[2015-12-03 17:29:18 : [INFO]页面跳转到：http://car.sit.com/product/1010001857.htm]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:21 : [STEP]点击立即下定按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:21 : [INFO]判断By.xpath: //button[@id='pc_product_order_1']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:21 : [INFO]click By.xpath: //button[@id='pc_product_order_1']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:23 : [STEP]切换iframe]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:23 : [STEP]点击新用户快速注册tab]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:23 : [INFO]判断By.xpath: //input[@id='toRegister']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:23 : [INFO]click By.xpath: //input[@id='toRegister']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [STEP]输入用户名13514929561]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='mobile']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='mobile']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='mobile']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]sendKeys the content '13514929561' toBy.xpath: //input[@id='mobile']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [STEP]输入设置密码]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='passWord']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='passWord']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]sendKeys the content '123456' toBy.xpath: //input[@id='passWord']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [STEP]输入验证码1111]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='validCode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]sendKeys the content '1111' toBy.xpath: //input[@id='validCode']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [STEP]点击获取验证码按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]判断By.xpath: //input[@id='getauthcodebun']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:26 : [INFO]click By.xpath: //input[@id='getauthcodebun']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:52 : [STEP]输入登录用户名:cscadmin]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:52 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:52 : [INFO]click By.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:52 : [INFO]判断By.xpath: //*[@id="username"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:52 : [INFO]sendKeys the content 'cscadmin' toBy.xpath: //*[@id="username"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:54 : [STEP]输入登录密码:123456]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:54 : [INFO]click By.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="password"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:54 : [INFO]sendKeys the content '123456' toBy.xpath: //*[@id="password"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:54 : [INFO]判断By.xpath: //*[@id="loginbtn"]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:29:54 : [INFO]click By.xpath: //*[@id="loginbtn"]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:04 : [INFO]判断By.xpath: /html/body/div[1]/div/ul/li/a/span是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:04 : [INFO]登录完成后，页面显示信息:CSC系统管理员]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:07 : [INFO]点击一级菜单：短信邮件管理]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:07 : [INFO]判断By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:07 : [INFO]click By.xpath: //ul[@class='page-sidebar-menu']//span[contains(text(),'短信邮件管理')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:08 : [INFO]点击二级子菜单：短信验证码查询]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:08 : [INFO]判断By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:08 : [INFO]click By.xpath: //ul[@class='sub-menu']//a[contains(text(),'短信验证码查询')]]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:12 : [INFO]登录完成后，页面显示信息:短信验证码查询]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:12 : [INFO]页面项验证compareResult=:1]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:12 : [INFO]判断By.xpath: //div[@class='page-container']/div/div/div/h3是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:12 : [INFO]页面显示和期望不匹配:实际-短信验证码查询;期望-退还记录]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:15 : [STEP]输入需要查询的手机号：13514929561]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:15 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:15 : [INFO]click By.xpath: //input[@name='mobile']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:15 : [INFO]判断By.xpath: //input[@name='mobile']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:15 : [INFO]sendKeys the content '13514929561' toBy.xpath: //input[@name='mobile']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:15 : [STEP]点击查询按钮]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:16 : [INFO]判断By.xpath: //input[@value='查询']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:16 : [INFO]click By.xpath: //input[@value='查询']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:18 : [STEP]获取验证码：]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:18 : [INFO]判断By.xpath: //input[@name='vcode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:18 : [INFO]验证码是：420018]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:19 : [STEP]输入验证码：420018]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:19 : [INFO]判断By.xpath: //input[@id='authcode']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:19 : [INFO]sendKeys the content '420018' toBy.xpath: //input[@id='authcode']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:20 : [INFO]判断By.xpath: //input[@id='tijiaobtn']是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:20 : [INFO]click By.xpath: //input[@id='tijiaobtn']]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:23 : [INFO]判断By.xpath: //li[@id='userCenter']/a/span是否显示]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:23 : [INFO]user52…]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:23 : [INFO]快速注册成功！]]>
+            </line>
+            <line>
+              <![CDATA[2015-12-03 17:30:24 : [INFO]数据删除成功！]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GeneralQuickRegister -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.operation.testcase.GeneralQuickRegisterFlow@6de728]" name="closeDriver" is-config="true" duration-ms="1678" started-at="2015-12-03T17:30:24Z" finished-at="2015-12-03T17:30:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.operation.testcase.GeneralQuickRegisterFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

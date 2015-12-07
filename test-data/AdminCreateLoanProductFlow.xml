@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<GeneralAdminEmallLogin>
+    <loginPage_url>http://toa-emall-admin-stg.paic.com.cn/emalladmin/login.jsp</loginPage_url>
+	<username>hounaijie468</username>
+	<password>aaaaa888</password>
+</GeneralAdminEmallLogin>
+<AdminSelectDepartmentAndVerify>
+   <department>银行贷款</department>
+</AdminSelectDepartmentAndVerify>
+<AdminCreateLoanProduct>
+    <infoDescription>银行贷款消息描述</infoDescription>
+    <applicationCondition>银行贷款申请条件</applicationCondition>
+    <loanDescription>银行贷款贷款说明</loanDescription>
+</AdminCreateLoanProduct>
+</data>

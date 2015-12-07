@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+<SearchAndTotalResultVerify>
+    <url>http://toa-emall.dmzstg.pingan.com</url>
+	<productName>AE</productName>
+	<productName1>自动AE热卖和夜市</productName1>
+	<productName2>新一贷ae个人信用贷款</productName2>
+	<productName3>珠江人寿AE汇赢系列</productName3>
+	<productName4>分红保险3</productName4>
+	<productName5>分红2</productName5>
+	<productName6>天津AE昆仑4号</productName6>
+	<productName7>直销PAE005</productName7>
+	<productName8>直销PAE004</productName8>
+	<productName9>直销PAE008</productName9>
+	<productName10>直销PAE006</productName10>
+	<productName11>直销PAE007</productName11>
+	<searchProduct>AE</searchProduct>
+</SearchAndTotalResultVerify>
+<OnSaleSearchAndVerify>
+    <productName1>自动AE热卖和夜市</productName1>
+	<productName2>新一贷ae个人信用贷款</productName2>
+	<productName3>珠江人寿AE汇赢系列</productName3>
+	<productName4>分红保险3</productName4>
+	<productName5>分红2</productName5>
+	<searchProduct>AE</searchProduct>
+</OnSaleSearchAndVerify>
+<InsuranceTabVerify>
+    <productName1>分红保险3</productName1>
+	<productName2>分红2</productName2>
+    <searchProduct>AE</searchProduct>
+    <product>insurance</product>
+</InsuranceTabVerify>
+<FinanceTabVerify>
+    <productName1>自动AE热卖和夜市</productName1>
+    <searchProduct>AE</searchProduct>
+    <product>finance</product>
+</FinanceTabVerify>
+<InvestmentTabVerify>
+    <productName1>珠江人寿AE汇赢系列</productName1>
+	<productName2>天津AE昆仑4号</productName2>
+    <searchProduct>AE</searchProduct>
+    <product>investment</product>
+</InvestmentTabVerify>
+<LoanTabVerify>
+    <productName1>新一贷ae个人信用贷款</productName1>
+    <searchProduct>AE</searchProduct>
+    <product>loan</product>
+</LoanTabVerify>
+<EndowmentTabVerify>
+	<productName1>直销PAE005</productName1>
+	<productName2>直销PAE004</productName2>
+	<productName3>直销PAE008</productName3>
+	<productName4>直销PAE006</productName4>
+	<productName5>直销PAE007</productName5>
+	<searchProduct>AE</searchProduct>
+</EndowmentTabVerify>
+</data>

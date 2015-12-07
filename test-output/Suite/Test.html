@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 25 18:38:31 CST 2015</td>
+</tr>
+<tr><td>Total time:</td><td>48 seconds (48464 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.paic.testcases.RegisterTC.withoutAssetsRegister()'><b>withoutAssetsRegister</b><br>Test class: com.paic.testcases.RegisterTC<br>Parameters: {successInfo=恭喜您成功注册fdsf, url=https://dmzstg2.pingan.com.cn/pinganone/pa/registerCustomerIndex.do}<br/>
+<a href="#Output-8352223" onClick='toggleBox("Output-8352223", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-8352223" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-8352223">
+2015-06-25 18:38:35 : [STEP]注册操作第一页，填写用户姓名及身份证号码<br/>
+2015-06-25 18:38:35 : [STEP]打开登陆页面，url为：https://dmzstg2.pingan.com.cn/pinganone/pa/registerCustomerIndex.do<br/>
+2015-06-25 18:38:35 : [INFO]页面跳转到：https://dmzstg2.pingan.com.cn/pinganone/pa/registerCustomerIndex.do<br/>
+2015-06-25 18:38:35 : [INFO]删除cookie<br/>
+2015-06-25 18:38:51 : [INFO]判断By.xpath: //input[@id='first_name']是否显示<br/>
+2015-06-25 18:38:51 : [INFO]clear By.xpath: //input[@id='first_name']<br/>
+2015-06-25 18:38:51 : [INFO]判断By.xpath: //input[@id='first_name']是否显示<br/>
+2015-06-25 18:38:51 : [INFO]sendKeys the content '测试赵赵' toBy.xpath: //input[@id='first_name']<br/>
+2015-06-25 18:38:52 : [INFO]判断By.xpath: //input[@id='certcode']是否显示<br/>
+2015-06-25 18:38:52 : [INFO]clear By.xpath: //input[@id='certcode']<br/>
+2015-06-25 18:38:52 : [INFO]判断By.xpath: //input[@id='certcode']是否显示<br/>
+2015-06-25 18:38:52 : [INFO]sendKeys the content '127240199506223743' toBy.xpath: //input[@id='certcode']<br/>
+2015-06-25 18:38:52 : [INFO]判断By.xpath: //input[@id='check_code']是否显示<br/>
+2015-06-25 18:38:52 : [INFO]sendKeys the content '8888' toBy.xpath: //input[@id='check_code']<br/>
+2015-06-25 18:38:52 : [INFO]判断By.xpath: //a[@id='judgeLink']是否显示<br/>
+2015-06-25 18:38:52 : [INFO]click By.xpath: //a[@id='judgeLink']<br/>
+2015-06-25 18:38:57 : [STEP]大众版用户注册第二页，填写将要注册的账户的信息<br/>
+2015-06-25 18:38:58 : [INFO]判断By.xpath: //input[@id='nickname']是否显示<br/>
+2015-06-25 18:38:58 : [INFO]click By.xpath: //input[@id='nickname']<br/>
+2015-06-25 18:38:58 : [INFO]判断By.xpath: //input[@id='nickname']是否显示<br/>
+2015-06-25 18:38:58 : [INFO]sendKeys the content 'autotest20150625183835' toBy.xpath: //input[@id='nickname']<br/>
+2015-06-25 18:38:58 : [INFO]判断By.xpath: .//*[@id='userIDtip_a']是否显示<br/>
+2015-06-25 18:38:58 : [INFO]click By.xpath: .//*[@id='userIDtip_a']<br/>
+2015-06-25 18:38:58 : [INFO]判断By.xpath: //input[@id='v_password']是否显示<br/>
+2015-06-25 18:38:58 : [INFO]sendKeys the content 'qweqwe123' toBy.xpath: //input[@id='v_password']<br/>
+2015-06-25 18:38:58 : [INFO]判断By.xpath: //input[@id='confirm_password']是否显示<br/>
+2015-06-25 18:38:58 : [INFO]sendKeys the content 'qweqwe123' toBy.xpath: //input[@id='confirm_password']<br/>
+2015-06-25 18:38:59 : [INFO]判断By.xpath: //input[@id='mobileNo']是否显示<br/>
+2015-06-25 18:38:59 : [INFO]sendKeys the content '18906251838' toBy.xpath: //input[@id='mobileNo']<br/>
+2015-06-25 18:38:59 : [INFO]判断By.xpath: //a[@id='sendMessageLink']是否显示<br/>
+2015-06-25 18:38:59 : [INFO]click By.xpath: //a[@id='sendMessageLink']<br/>
+2015-06-25 18:39:04 : [INFO]判断By.xpath: //a[@id='submitBtn']是否显示<br/>
+2015-06-25 18:39:04 : [INFO]click By.xpath: //a[@id='submitBtn']<br/>
+2015-06-25 18:39:09 : [STEP]获取注册成功的提示信息<br/>
+2015-06-25 18:39:16 : [INFO]判断By.xpath: .//*[@id='myForm']/div/div/div[1]/h2是否显示<br/>
+2015-06-25 18:39:16 : [INFO]withoutAssetsRegister Failure<br/>
+<img src="./snapshot/20150625183916.jpg" style="width:400px;height:350px;"/><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.paic.testcases.RegisterTC.withoutAssetsRegister(Unknown Source)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace8352223", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace8352223'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.paic.testcases.RegisterTC.withoutAssetsRegister(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+</pre></div></td>
+<td>40</td>
+<td>com.paic.testcases.RegisterTC@29de03</td></tr>
+</table><p>
+</body>
+</html>

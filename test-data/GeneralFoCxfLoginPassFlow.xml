@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common></common>
+	<CxfLogin>
+		<cxfUrl>https://cxfpay.sit.com/pay/login.htm</cxfUrl>
+		<userName>17100000052</userName>
+		<passWord>123456</passWord>
+		<checkCode>WR88</checkCode>
+		<loginInfo>退出</loginInfo>
+	</CxfLogin>
+</data>
